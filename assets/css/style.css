@@ -1,0 +1,95 @@
+/* font override */
+p, h1, h2, h3, h4, h5, h6, button, .powered-by {
+    font-family: "Source Code Pro", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #f1f2f6;
+}
+body {
+    background-color: #0e1428;
+}
+
+.hero {
+    background: 
+    linear-gradient(
+      rgba(14, 20, 40, 0.85), 
+      rgba(14, 20, 40, 0.85)
+    ),
+    /* bottom, image */
+    url("/assets/img/hero-bg.jpg");    height: calc(100vh - 2em);
+    text-align: center;
+}
+
+.logo {
+    width: 50vw;
+}
+
+.checkered {
+    background-color: black;
+    background-image: linear-gradient(45deg, #EBC805 25%, transparent 25%), linear-gradient(-45deg, #EBC805 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #EBC805 75%), linear-gradient(-45deg, transparent 75%, #EBC805 75%);
+    background-size: 1em 1em;
+    background-position: 0 0, 0 0.5em, 0.5em -0.5em, -0.5em 0px;  
+}
+
+.line {
+    width: 100vw;
+    height: 2em;
+}
+
+.my-auto { /* fixes hero centering */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hero .tagline {
+    color: #EBC805;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.hero .btn-outline-primary {
+    color: #EBC805;
+    border-color: #EBC805;
+    border-radius: 0;
+}
+
+.hero .btn-outline-primary:hover, .hero .btn-outline-primary:active:focus {
+    background-color: #EBC805;
+    color: #0e1428;
+}
+
+.hero .powered-by {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.hero .powered-by img {
+    height: 2em;
+}
+
+.page-content {
+    margin-top: 2em;
+}
+
+.page-content p {
+    color: #f1f2f6;
+}
+
+footer {
+    background-color: #1a1a1a;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #f1f2f6;
+}
+
+.poweredby-logos {
+    text-align: center;
+}
+
+.poweredby-logos img {
+    width: 20vw;
+}
