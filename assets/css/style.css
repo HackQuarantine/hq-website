@@ -87,7 +87,7 @@ body {
 
 footer {
     background-color: #1a1a1a;
-    margin-top: 1em;
+    margin-top: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     color: #f1f2f6;
@@ -118,4 +118,8 @@ footer {
     border-radius: 0;
     color: #f1f2f6;
     font-family: "Source Code Pro", serif;
+}
+
+h2 {
+    margin-top: 2em;
 }
