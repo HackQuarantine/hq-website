@@ -101,6 +101,9 @@ footer {
     height: 6em;
 }
 
+.partneredwith-logos {
+    text-align: center;
+}
 
 .partneredwith-logos img {
     margin-left: 1em;
