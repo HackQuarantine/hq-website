@@ -1,5 +1,5 @@
 /* font override */
-p, h1, h2, h3, h4, h5, h6, button, .powered-by {
+p, h1, h2, h3, h4, h5, h6, button, .powered-by, .tagline {
     font-family: "Source Code Pro", serif;
 }
 
