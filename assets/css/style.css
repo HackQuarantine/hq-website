@@ -48,6 +48,7 @@ body {
 .my-auto { /* fixes hero centering */
     margin-top: auto;
     margin-bottom: auto;
+    padding-left: 0;
 }
 
 .hero .tagline {
