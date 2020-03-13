@@ -1,0 +1,38 @@
+<html lang="en">
+ 
+    {% include header.html %}
+    <body>
+
+        {% include hero.html %}
+        <div class="checkered line"></div>
+
+        <div class="container page-content">
+            <div class="row">
+                <div class="col-12">
+                    {{ content }}
+
+                    <h2>I've got a question!</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="accordion" id="faqs">
+                              {% for faq in site.faq %}
+                                  {% include faq.html content=faq.content title=faq.title %}
+                              {% endfor %}
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>contact details here for if people need clarification</p>
+                        </div>
+                    </div>
+
+                    <h2>Powered by</h2>
+                    <div class="poweredby-logos">
+                        <img class="logo" src="./assets/img/logo.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {% include footer.html %}
+  </body>
+</html>

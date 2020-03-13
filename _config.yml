@@ -1,0 +1,17 @@
+defaults:
+  -
+    values:
+      title: HackQuarantine
+      tagline: Couped up? Hack Quarantine!
+      assets:
+        logo: './assets/img/logo.png'
+      socials:
+        twitter: https://twitter.com/HackQuarantine
+        facebook: https://www.facebook.com/HackQuarantine
+        emails: ''
+
+
+collections_dir: _collections
+
+collections:
+  - faq
