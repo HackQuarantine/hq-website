@@ -6,6 +6,7 @@ defaults:
       assets:
         logo: './assets/img/logo.png'
       socials:
+        platform: https://platform.hackquarantine.com/
         twitter: https://twitter.com/HackQuarantine
         facebook: https://www.facebook.com/HackQuarantine
         instagram: https://www.instagram/HackQuarantine
