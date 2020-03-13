@@ -101,6 +101,13 @@ footer {
     height: 6em;
 }
 
+
+.partneredwith-logos img {
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 4em;
+}
+
 #faqs .card-header {
     padding: 0;
 }
