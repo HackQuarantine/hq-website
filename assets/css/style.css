@@ -60,6 +60,7 @@ body {
     color: #EBC805;
     border-color: #EBC805;
     border-radius: 0;
+    margin: 0.25em;
 }
 
 .hero .btn-outline-primary:hover, .hero .btn-outline-primary:active:focus {
