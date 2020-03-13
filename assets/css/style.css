@@ -22,10 +22,6 @@ body {
     text-align: center;
 }
 
-.logo {
-    width: 50vw;
-}
-
 .checkered {
     background-color: black;
     background-image: linear-gradient(45deg, #EBC805 25%, transparent 25%), linear-gradient(-45deg, #EBC805 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #EBC805 75%), linear-gradient(-45deg, transparent 75%, #EBC805 75%);
@@ -100,7 +96,8 @@ footer {
 }
 
 .poweredby-logos img {
-    width: 20vw;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #faqs .card-header {
