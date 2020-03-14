@@ -2,7 +2,7 @@
 _site
 vendor/
 .bundle/
-
+.DS_Store/
 .bundle/
 
 vendor/
