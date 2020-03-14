@@ -113,9 +113,12 @@ footer {
 }
 
 .poweredby-logos img {
-    margin-left: 1em;
-    margin-right: 1em;
-    height: 6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-height: 6em;
+    max-width: 100%;
 }
 
 .partneredwith-logos {
@@ -124,9 +127,12 @@ footer {
 }
 
 .partneredwith-logos img {
-    margin-left: 1em;
-    margin-right: 1em;
-    height: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-height: 4em;
+    max-width: 100%;
 }
 
 .team {
