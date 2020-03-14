@@ -104,6 +104,7 @@ footer {
 }
 
 .partneredwith-logos {
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -111,6 +112,38 @@ footer {
     margin-left: 1em;
     margin-right: 1em;
     height: 4em;
+}
+
+.team {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.team a {
+    color: #EBC805;
+    font-family: "Source Code Pro", serif;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.team > a > div {
+    margin-top: 0.5em;
+}
+
+.team > a > div > div {
+    color: #ececec;
+    margin-top: -0.25em;
+}
+
+.team a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.team img {
+    border-radius: 50%;
+    width: 8em;
 }
 
 #faqs .card-header {
