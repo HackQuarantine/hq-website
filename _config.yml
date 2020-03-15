@@ -1,7 +1,7 @@
 defaults:
   -
     values:
-      title: HackQuarantine
+      title: Hack Quarantine
       tagline: Isolation doesn't have to be so isolating!
       daterange: March 23rd to April 13th
       assets:
