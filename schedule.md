@@ -12,6 +12,7 @@ styles:
     hash: sha384-I6BmgTJPPB58p0uMGaoLY/wFTFFlO4VSmjQYBfNzCzejCImTYNj/yXYmKBeUjtHH
   - url: https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/darkly/bootstrap.min.css
     hash: sha384-rCA2D+D9QXuP2TomtQwd+uP50EHjpafN+wruul0sXZzX/Da7Txn4tB9aLMZV4DZm
+  - url: https://fonts.googleapis.com/icon?family=Material+Icons
   - url: /assets/css/calendar.css
 scripts:
   - url: https://unpkg.com/@fullcalendar/core@4.3.0/main.min.js
@@ -30,3 +31,22 @@ scripts:
 ---
 
 <div id="calendar"></div>
+
+<div id="event-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title"><i class="material-icons">event</i><b id="event-title"></b></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div><i class="material-icons">access_time</i> Date - <b id="event-date"></b></div>
+        <div><i class="material-icons">person</i> Organiser - <b id="event-person"></b></div>
+        <hr>
+        <p id="event-desc"></p>
+      </div>
+    </div>
+  </div>
+</div>
