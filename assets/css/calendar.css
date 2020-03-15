@@ -2,6 +2,17 @@ body {
     background-color: #0e1428;
 }
 
+#event-modal h1,h2,h3,h4,h5,div,p {
+  font-family: unset;
+}
+
+.material-icons {
+  font-size: 26px;
+  position: relative;
+  top: 0.2em;
+  padding-right: 0.2em;
+}
+
 #calendar .fc-today {
   background: #FFFFFF26 !important;
 }

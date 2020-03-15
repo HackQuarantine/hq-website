@@ -1,4 +1,4 @@
-/* global FullCalendar */
+/* global $, FullCalendar */
 
 const CALENDAR_ID = 'hacksocnotts.co.uk_5m2l3o30k13frs9nd9dmh9rk8o@group.calendar.google.com'
 const CALENDAR_KEY = 'AIzaSyBzgsuQnfQ7g_zMSsmll7XosF5ZxpJZaWk'
@@ -13,6 +13,16 @@ const DATE_24HR_FORMAT = {
   minute: '2-digit',
   omitZeroMinute: false,
   hour12: false
+}
+
+const DATE_RANGE_FORMAT = {
+  month: 'short',
+  day: 'numeric',
+  separator: ' to ',
+  hour: '2-digit',
+  minute: '2-digit',
+  hour12: false,
+  timeZoneName: 'short'
 }
 
 let calendar
@@ -56,7 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
         listDayFormat: { year: 'numeric', month: 'short', day: '2-digit', omitCommas: true },
         listDayAltFormat: { weekday: 'long' }
       }
-    }
+    },
+    eventClick: displayEvent
   })
 
   window.addEventListener('resize', () => {
@@ -80,4 +91,29 @@ function getCalendarMode () {
   } else {
     return LARGE_DEVICE_VIEW
   }
+}
+
+function displayEvent (info) {
+  info.jsEvent.preventDefault()
+
+  console.log(info.event._def)
+
+  let organiser = info.event._def.extendedProps.location
+  let description = info.event._def.extendedProps.description
+
+  if (organiser === undefined) {
+    organiser = '(no organiser specifed)'
+  }
+
+  if (description === undefined) {
+    description = '(no description specifed)'
+  }
+
+  const date = info.event._instance.range
+  $('#event-title').text(info.event._def.title)
+  $('#event-date').text(FullCalendar.formatRange(date.start, date.end, DATE_RANGE_FORMAT))
+  $('#event-person').text(organiser)
+  $('#event-desc').text(description)
+
+  $('#event-modal').modal('show')
 }
