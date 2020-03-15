@@ -48,7 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
         slotDuration: '01:00:00',
         slotLabelInterval: '02:00:00',
         slotLabelFormat: DATE_24HR_FORMAT,
-        nowIndicator: true
+        nowIndicator: true,
+        timeGridEventMinHeight: 60
       },
       // all upcoming events view
       listYear: {
