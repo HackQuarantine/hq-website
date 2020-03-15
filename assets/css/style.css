@@ -194,6 +194,7 @@ footer {
     border-radius: 0;
     color: #f1f2f6;
     font-family: "Source Code Pro", serif;
+    width: 100%;
 }
 
 .card-columns {
