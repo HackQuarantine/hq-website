@@ -1,5 +1,5 @@
 <html lang="en">
- 
+
     {% include header.html %}
     <body>
 
@@ -11,14 +11,33 @@
                 <div class="col-12">
                     {{ content }}
 
+                    <h2>Tracks</h2>
+                    <div class="row tracks">
+                        <div class="col-sm">
+                            <img src="/assets/img/tracks/support.png" width="100%" />
+                            <h5>Supporting Quarantined or At Risk People</h5>
+                        </div>
+                        <div class="col-sm">
+                            <img src="/assets/img/tracks/medtech.png" width="100%" />
+                            <h5>Tech and Health</h5>
+                        </div>
+                        <div class="col-sm">
+                            <img src="/assets/img/tracks/remoteworking.png" width="100%" />
+                            <h5>Remote Working</h5>
+                        </div>
+                        <div class="col-sm">
+                            <img src="/assets/img/tracks/misinfo.png" width="100%" />
+                            <h5>Improving Awareness and Behaviour</h5>
+                        </div>
+                    </div>
 
                     <h2>I've got a question!</h2>
 
                     <div class="accordion" id="faqs">
                         <div class="card-columns">
-                          {% for faq in site.faq %}
+                            {% for faq in site.faq %}
                             {% include faq.html index=forloop.index content=faq.content title=faq.title %}
-                          {% endfor %}
+                            {% endfor %}
                         </div>
                     </div>
 
@@ -61,6 +80,6 @@
             </div>
         </div>
 
-    {% include footer.html %}
-  </body>
+        {% include footer.html %}
+    </body>
 </html>
