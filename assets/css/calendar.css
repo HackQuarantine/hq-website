@@ -22,12 +22,19 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 992px) {
   #calendar {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
   }
 
+  .fc-toolbar.fc-header-toolbar {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+@media only screen and (max-width : 768px) {
   .fc-left > h2 {
     font-size: 1.2em;
   }
@@ -36,6 +43,8 @@ body {
     display: inline-block;
     width: 100%;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .fc-toolbar.fc-header-toolbar > * {
