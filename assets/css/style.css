@@ -89,6 +89,20 @@ body {
     color: #0e1428;
 }
 
+.hero .btn-primary {
+    color: #0e1428;
+    background-color: #EBC805;
+    border-color: #EBC805;
+    border-radius: 0;
+    margin: 0.25em;
+}
+
+.hero .btn-primary:hover, .hero .btn-primary:active:focus {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #0e1428;
+}
+
 .hero .powered-by {
     color: white;
     font-size: 1em;

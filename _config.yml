@@ -13,6 +13,7 @@ defaults:
         facebook: https://www.facebook.com/HackQuarantine
         instagram: https://www.instagram.com/hackquarantine/
         linkedin: https://www.linkedin.com/company/hackquarantine/
+        schedule: /schedule
         emails: ''
 
 
