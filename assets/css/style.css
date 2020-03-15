@@ -1,5 +1,5 @@
 /* font override */
-p, h1, h2, h3, h4, h5, h6, button, .powered-by, .tagline {
+p, h1, h2, h3, h4, h5, h6, button, .powered-by, .tagline, .headline-date {
     font-family: "Source Code Pro", serif;
 }
 
@@ -13,6 +13,7 @@ body {
 }
 
 .hero {
+
     height: calc(100vh - 2em);
     text-align: center;
     background-color: transparent;
@@ -67,6 +68,13 @@ body {
 .hero .tagline {
     color: #EBC805;
     font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.hero .headline-date {
+    color: #EBC805;
+    font-size: 2em;
+    font-weight: bold;
     margin-bottom: 1em;
 }
 
