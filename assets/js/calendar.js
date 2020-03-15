@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   calendarElement = document.querySelector('#calendar')
 
   calendar = new FullCalendar.Calendar(calendarElement, {
-    plugins: ['dayGrid', 'googleCalendar', 'list', 'timeGrid'],
+    plugins: ['bootstrap', 'dayGrid', 'googleCalendar', 'list', 'timeGrid'],
     defaultView: 'listYear',
     header: { center: 'dayGridMonth, timeGridWeek, listYear' },
     titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
       googleCalendarId: CALENDAR_ID,
       failure: onLoadFailed
     },
+    themeSystem: 'bootstrap',
     eventTimeFormat: DATE_24HR_FORMAT,
     views: {
       // month view

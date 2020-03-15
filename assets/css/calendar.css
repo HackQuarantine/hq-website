@@ -1,20 +1,20 @@
+body {
+    background-color: #0e1428;
+}
+
 #calendar .fc-view-container {
     box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
-    background: white;
+    background-color: #303030;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius:0.25rem;
 }
 
-#calendar-container {
-    background: white;
-    padding: 30px;
-    border-radius: 4px;
-}
-
-#calendar > h1, h2, h3, h4, h5, h6 {
-    color: black;
+#calendar h1, h2, h3, h4 {
     font-family: unset;
 }
 
-.fc-toolbar button {
+#calendar .fc-toolbar button {
   box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
 }
 
@@ -23,7 +23,7 @@
 }
 
 @media only screen and (max-width : 900px) {
-  #calendar-container, #calendar {
+  #calendar {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
   }
