@@ -9,6 +9,7 @@ defaults:
       socials:
         discord: https://discord.hackquarantine.com/
         platform: https://platform.hackquarantine.com/
+        workshops: https://workshops.hackquarantine.com/
         twitter: https://twitter.com/HackQuarantine
         facebook: https://www.facebook.com/HackQuarantine
         instagram: https://www.instagram.com/hackquarantine/
