@@ -1,7 +1,7 @@
 /* global FullCalendar */
 
-const CALENDAR_ID = 't8iphvpqadetnf7ccpb2c7pnjk@group.calendar.google.com'
-const CALENDAR_KEY = 'AIzaSyBplGV41n0rSD_NK612JhLTxePXXeyo0iE'
+const CALENDAR_ID = 'hacksocnotts.co.uk_5m2l3o30k13frs9nd9dmh9rk8o@group.calendar.google.com'
+const CALENDAR_KEY = 'AIzaSyBzgsuQnfQ7g_zMSsmll7XosF5ZxpJZaWk'
 
 const SMALL_DEVICE_WIDTH = 768
 
