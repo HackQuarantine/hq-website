@@ -28,8 +28,8 @@ body {
     z-index: -1;
     background: 
     linear-gradient(
-      rgba(14, 20, 40, 0.85), 
-      rgba(14, 20, 40, 0.85)
+    rgba(14, 20, 40, 0.85), 
+    rgba(14, 20, 40, 0.85)
     ),
     /* bottom, image */
     url("/assets/img/hero-bg.jpg");
@@ -47,7 +47,7 @@ body {
 
 .checkered-dimmed {
     background-color: black;
-    background-image: linear-gradient(45deg, #856200 25%, transparent 25%), linear-gradient(-45deg, #856200 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #856200 75%), linear-gradient(-45deg, transparent 75%, #856200 75%);
+    background-image: linear-gradient(45deg, #856200 25%, transparent 90%), linear-gradient(-45deg, #856200 25%, transparent 90%), linear-gradient(45deg, transparent 90%, #856200 75%), linear-gradient(-45deg, transparent 90%, #856200 75%);
     background-size: 2em 2em;
     background-position: 0 0, 0 1em, 1em -1em, -1em 0px;  
 }
@@ -168,6 +168,7 @@ footer {
     width: 8em;
 }
 
+
 #faqs .card-header {
     padding: 0;
 }
@@ -176,15 +177,27 @@ footer {
     color: white;
     text-shadow: 0px 0px 8px black;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #faqs .card {
+    display: inline-block;
     background-color: #282E42;
     border: 1px solid #00000F;
     border-radius: 0;
     color: #f1f2f6;
     font-family: "Source Code Pro", serif;
+}
+
+.card-columns {
+    column-count: 1;
+}
+
+@media screen and (min-width: 800px) {
+
+    .card-columns {
+        column-count: 2;
+    }
 }
 
 h2 {
@@ -197,15 +210,15 @@ h2 {
 }
 
 /*@media only screen and (max-width : 600px) {
-    
-    .hero .logo {
-        width: 70%;
-        padding: 8px;
-    }
 
-    .hero .tagline {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
+.hero .logo {
+width: 70%;
+padding: 8px;
+}
+
+.hero .tagline {
+margin-left: 1em;
+margin-right: 1em;
+}
 
 }*/

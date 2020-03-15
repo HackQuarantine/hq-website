@@ -2,7 +2,7 @@ defaults:
   -
     values:
       title: HackQuarantine
-      tagline: Isolation doesn't have to be so isolating
+      tagline: Isolation doesn't have to be so isolating!
       assets:
         logo: './assets/img/logo.png'
       socials:

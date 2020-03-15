@@ -11,17 +11,14 @@
                 <div class="col-12">
                     {{ content }}
 
+
                     <h2>I've got a question!</h2>
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="accordion" id="faqs">
-                              {% for faq in site.faq %}
-                                  {% include faq.html index=forloop.index content=faq.content title=faq.title %}
-                              {% endfor %}
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <p>contact details here for if people need clarification</p>
+
+                    <div class="accordion" id="faqs">
+                        <div class="card-columns">
+                          {% for faq in site.faq %}
+                            {% include faq.html index=forloop.index content=faq.content title=faq.title %}
+                          {% endfor %}
                         </div>
                     </div>
 
