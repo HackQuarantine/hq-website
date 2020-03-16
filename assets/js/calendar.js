@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     eventClick: displayEvent
   })
+  document.getElementById('timezone').innerHTML = `All times are in your local timezone! (${Intl.DateTimeFormat().resolvedOptions().timeZone})`
 
   window.addEventListener('resize', () => {
     calendar.changeView(getCalendarMode())

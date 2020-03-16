@@ -30,8 +30,14 @@ scripts:
   - url: /assets/js/calendar.js
 ---
 
-<div id="calendar"></div>
 
+<h2>Schedule</h2>
+
+<div id="timezone"></div>
+
+<br />
+
+<div id="calendar"></div>
 <div id="event-modal" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
