@@ -4,6 +4,7 @@
     /* background-color: #1a1a1a; */
     background-color: #0e1428;
     box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+    font-family: sans-serif;
 }
 
 .nav-content {
@@ -49,13 +50,15 @@
     margin-top: 1.4em;
 }
 
-.nav-content nav ul li a > * {
+.nav-content nav ul li a {
+    font-size: 18px;
     font-weight: bold;
+    color: white;
     margin: 0;
 }
 
 .nav-content nav ul .separator {
-    width: 2em;
+    width: 20px;
     user-select: none;
     opacity: 0;
 }
