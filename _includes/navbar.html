@@ -12,12 +12,8 @@
 			<a id="pull" href="#">
 				<i class="fa fa-bars"></i>
 			</a>
-
-		    <!-- Menu -->
 		    <ul class="hide">
-		        {% assign name_page = "" %}
-
-		        {% for page in site.pages %}
+		        {%- for page in site.pages -%}
 					{% if page.url != "/" %}
 		            <li class="separator"> | </li>
 		            <li>
@@ -26,7 +22,7 @@
 		                </a>
 		            </li>
 					{% endif %}
-		        {% endfor %}
+		        {%- endfor -%}
 		    </ul>
 		</nav>
 	</div>
