@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   calendar = new FullCalendar.Calendar(calendarElement, {
     plugins: ['bootstrap', 'dayGrid', 'googleCalendar', 'list', 'timeGrid'],
     defaultView: 'listYear',
-    header: { center: 'dayGridMonth, timeGridWeek, listYear' },
+    header: { center: 'listYear, timeGridWeek, dayGridMonth' },
     titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
     buttonText: { dayGridMonth: 'Month', timeGridWeek: 'Week', list: 'All', today: 'Today' },
     firstDay: 1,
