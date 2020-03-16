@@ -1,0 +1,33 @@
+<header class="nav-bar">
+	<div class="nav-content">
+	    <!-- Logo and title -->
+		<div class="branding">
+			<a class="logo-touch-target" href="{{ '/' | relative_url }}">
+				<img class="logo" src="{{ page.assets.small_logo | relative_url }}" />
+			</a>
+		</div>
+
+	    <!-- Toggle menu -->
+	    <nav class="clear">
+			<a id="pull" href="#">
+				<i class="fa fa-bars"></i>
+			</a>
+
+		    <!-- Menu -->
+		    <ul class="hide">
+		        {% assign name_page = "" %}
+
+		        {% for page in site.pages %}
+					{% if page.url != "/" %}
+		            <li class="separator"> | </li>
+		            <li>
+		                <a title="{{ page.title }}" href="{{ page.url | relative_url }}">
+		                    <h5>{{ page.title }}</h5>
+		                </a>
+		            </li>
+					{% endif %}
+		        {% endfor %}
+		    </ul>
+		</nav>
+	</div>
+</header>

@@ -1,0 +1,99 @@
+.nav-bar {
+    width: 100%;
+    height: 64px;
+    /* background-color: #1a1a1a; */
+    background-color: #0e1428;
+    box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+}
+
+.nav-content {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-content * {
+    display: inline-block;
+}
+
+.nav-content .logo-touch-target {
+    display: inline-flex;
+    height: 100%;
+    width: 160px;
+}
+
+.nav-content .logo {
+    height: 24px;
+    margin: auto;
+}
+
+.nav-content #pull {
+    font-size: 1.5em;
+    margin-top: -1.3em;
+    color: white;
+}
+
+.nav-content nav {
+    float: right;
+    padding-right: 20px;
+}
+
+.nav-content nav ul {
+    /* float: right; */
+    list-style: none;
+}
+
+.nav-content nav ul li {
+    clear:both;
+    float: left;
+}
+
+.nav-content nav ul li a > * {
+    font-weight: bold;
+}
+
+.nav-content nav ul .separator {
+    user-select: none;
+    opacity: 0;
+}
+
+@media (min-width: 768px) {
+    nav #pull {
+        display:none
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        height:auto
+    }
+    nav .separator {
+        display:none !important
+    }
+    nav ul {
+        overflow:hidden;
+        transition:opacity .5s .25s, font-size .5s .25s
+    }
+    nav ul.hide {
+        font-size:0;
+        margin:0;
+        opacity:0;
+        padding:0
+    }
+    nav ul li {
+        width:100%;
+        text-align:center;
+        font-size:2em;
+        margin-top:16px;
+        position:relative;
+        background-color:#fafafa
+    }
+    nav ul li:nth-of-type(4n) {
+        background-color:#fff
+    }
+    nav ul li a {
+        width:100%;
+        margin:0;
+        display:block
+    }
+}
