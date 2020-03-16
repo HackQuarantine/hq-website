@@ -6,7 +6,7 @@ const CALENDAR_KEY = 'AIzaSyBzgsuQnfQ7g_zMSsmll7XosF5ZxpJZaWk'
 const SMALL_DEVICE_WIDTH = 768
 
 const SMALL_DEVICE_VIEW = 'listYear'
-const LARGE_DEVICE_VIEW = 'timeGridWeek'
+const LARGE_DEVICE_VIEW = 'listYear'
 
 const DATE_24HR_FORMAT = {
   hour: '2-digit',
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   calendar = new FullCalendar.Calendar(calendarElement, {
     plugins: ['bootstrap', 'dayGrid', 'googleCalendar', 'list', 'timeGrid'],
-    defaultView: 'listYear',
+    defaultView: getCalendarMode(),
     header: { center: 'listYear, timeGridWeek, dayGridMonth' },
     titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
     buttonText: { dayGridMonth: 'Month', timeGridWeek: 'Week', list: 'All', today: 'Today' },
