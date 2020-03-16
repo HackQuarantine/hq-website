@@ -12,7 +12,7 @@
 	    <nav class="clear">
 		    <ul class="hide">
 		        {%- for page in site.pages -%}
-					{%- if page.url != "/" -%}
+					{%- if page.layout != "default" -%}
 		            <li class="separator"></li><li><a title="{{ page.title }}" href="{{ page.url | relative_url }}">
 		                    {{- page.title -}}
 		                </a>
