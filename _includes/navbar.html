@@ -1,17 +1,15 @@
 <header class="nav-bar">
 	<div class="nav-content">
 	    <!-- Logo and title -->
-		<div class="branding">
-			<a class="logo-touch-target" href="{{ '/' | relative_url }}">
-				<img class="logo" src="{{ page.assets.small_logo | relative_url }}" />
-			</a>
-		</div>
+		<a class="logo-touch-target" href="{{ '/' | relative_url }}">
+			<img class="logo" src="{{ page.assets.small_logo | relative_url }}" />
+		</a>
 
 	    <!-- Toggle menu -->
+		<a id="pull" href="#">
+			<i class="fa fa-bars"></i>
+		</a>
 	    <nav class="clear">
-			<a id="pull" href="#">
-				<i class="fa fa-bars"></i>
-			</a>
 		    <ul class="hide">
 		        {%- for page in site.pages -%}
 					{%- if page.url != "/" -%}
