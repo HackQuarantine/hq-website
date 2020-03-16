@@ -5,6 +5,7 @@ defaults:
       tagline: A global, virtual hackathon
       daterange: March 23rd to April 12th
       assets:
+        small_logo: './assets/img/small_logo.png'
         logo: './assets/img/logo.png'
       socials:
         discord: https://discord.hackquarantine.com/
