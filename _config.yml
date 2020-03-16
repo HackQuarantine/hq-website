@@ -2,7 +2,7 @@ defaults:
   -
     values:
       title: Hack Quarantine
-      tagline: Isolation doesn't have to be so isolating!
+      tagline: A global, virtual hackathon
       daterange: March 23rd to April 12th
       assets:
         logo: './assets/img/logo.png'
