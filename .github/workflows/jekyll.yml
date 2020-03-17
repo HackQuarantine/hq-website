@@ -18,8 +18,3 @@ jobs:
       uses: srt32/git-actions@v0.0.3
       with:
         args: git submodule update --init --remote --merge
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
