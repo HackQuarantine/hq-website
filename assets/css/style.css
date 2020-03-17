@@ -142,12 +142,12 @@ footer {
     max-width: 100%;
 }
 
-.partneredwith-logos {
+.partneredwith-logos, .thanksto-logos {
     margin-top: 2em;
     text-align: center;
 }
 
-.partneredwith-logos img {
+.partneredwith-logos img, .thanksto-logos img {
     margin-top: 1em;
     margin-bottom: 1em;
     padding-left: 1em;
