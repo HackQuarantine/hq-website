@@ -1,0 +1,3 @@
+[submodule "assets/submodules/resources"]
+	path = assets/submodules/resources
+	url = git@github.com:HackQuarantine/resources.git
