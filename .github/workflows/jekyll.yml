@@ -18,3 +18,9 @@ jobs:
       uses: srt32/git-actions@v0.0.3
       with:
         args: git submodule update --init --remote --merge
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./site
