@@ -13,7 +13,8 @@ body {
 }
 
 .hero {
-
+    max-width: 100% !important;
+    width: 100% !important;
     height: calc(100vh - 2em);
     text-align: center;
     background-color: transparent;

@@ -1,0 +1,27 @@
+#embedded {
+    border: 0;
+    overflow: hidden;
+}
+
+#main-container {
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 500px) {
+    #embedded {
+        margin-left: calc(-50vw + 50%);
+        width: 100vw;
+    }
+}
+
+#main-container {
+    column-count: 2:
+}
+
+/* @media screen and (max-width: 1100px) {
+
+    #main-container {
+        column-count: 1;
+    }
+} */
