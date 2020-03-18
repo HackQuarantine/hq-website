@@ -25,5 +25,6 @@ jobs:
       env:
         REPO: git@github.com:HackQuarantine/hq-website.git
         BRANCH: gh-pages
+        FOLDER: .
         SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
