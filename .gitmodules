@@ -1,0 +1,3 @@
+[submodule "assets/submodules/resources"]
+	path = _data/resources
+	url = https://github.com/HackQuarantine/resources.git

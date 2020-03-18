@@ -1,0 +1,16 @@
+<div class="card">
+
+    <div class="card-header checkered-dimmed" id="faq{{ include.index }}">
+
+        <h3 class="mb-0">
+            <button class="btn btn-link" type="button" data-target="#collapse{{ include.index }}" aria-expanded="false" aria-controls="collapse{{ include.index }}">
+                {{ include.title }}
+            </button>
+        </h3>
+    </div>
+    <div id="collapse{{ include.index }}" aria-labelledby="faq{{ include.index }}" data-parent="#faqs">
+        <div class="card-body">
+            {{ include.content }}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,105 @@
+<html lang="en">
+
+    {% include header.html %}
+    <body>
+
+        {% include hero.html %}
+        <div class="checkered line"></div>
+
+        <div class="container page-content">
+            <div class="row">
+                <div class="col-12">
+                    {{ content }}
+
+                    <h2>Tracks</h2>
+                     <p>
+                        Instead of having different challenges, at HackQuarantine we've decided to have separate tracks. Your project doesn't have to fit perfectly into one track, it could be a mix and match of several (or all of them). We've chosen these tracks based on areas where we think that tech could be used to help solve some of the problems that the world is currently facing with the ongoing pandemic.
+                        </p>
+
+                    <div class="row tracks">
+                        <div class="col-sm">
+                            <img src="/assets/img/tracks/support.png" width="100%" />
+                            <h5>Supporting Quarantined or At Risk People</h5>
+                            <p>This track is about finding ways to support people who are quarantined or self isolating at home, and helping At Risk people avoid cataching it. Projects could include something to make it easier for individuals or groups to get food without leaving the house, or something to help with cabin fever!</p>
+                        </div>
+                        <div class="col-sm">
+                            <img src="/assets/img/tracks/medtech.png" width="100%" />
+                            <h5>Tech and Health</h5>
+                            <p>How can technology be used to help the doctors and nurses at the front line, or help with early detection. Anything from using a thermal camera to help with detection, or an app that makes it easier to work out where you've been for contact tracing.</p>
+                        </div>
+                        <div class="col-sm">
+                            <img src="/assets/img/tracks/remoteworking.png" width="100%" />
+                            <h5>Remote Working</h5>
+                            <p>Remote working can be hard at the best of times, this track is about making it easier to be productive at home whilst not feeling so isolated. This could be by finding ways to improve communication or finding unique ways to make it easier for people to complete their roles outside of the office.</p>
+                        </div>
+                        <div class="col-sm">
+                            <img src="/assets/img/tracks/misinfo.png" width="100%" />
+                            <h5>Improving Awareness and Behaviour</h5>
+                            <p>With information changing every hour, it's getting very difficult for people to keep up on what they need to know. How can we use tech to get the public engaged and informed on the ongoing situation without causing panic. For this track you could create an app that reminds you to wash your hands whenever you enter a new building, or something that monitors your webcam to warn you when you've touched your face.</p>
+                        </div>
+                    </div>
+
+                    <h2>I've got a question!</h2>
+
+                    <div class="accordion" id="faqs">
+                        <div class="card-columns">
+                            {% for faq in site.faq %}
+                            {% include faq.html index=forloop.index content=faq.content title=faq.title %}
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <h2>Powered by</h2>
+                    <div class="poweredby-logos">
+                        <a href="https://hack.athon.uk"><img class="logo" src="./assets/img/powered_by/logo.svg" /></a>
+                        <a href="https://hackathonsforschools.com"><img class="logo" src="./assets/img/powered_by/hsfa_logo_circle.png" /></a>
+                        <a href="#"><img class="logo" src="./assets/img/powered_by/hp_logo.png" /></a>
+                    </div>
+
+                    <h2>Partnered with</h2>
+                    <div class="partneredwith-logos">
+                        <a href="https://manmethacks.com/"><img class="logo" src="./assets/img/partnered_socs/hellohackers.png" /></a>
+                        <a href="https://compsoc.tech"><img class="logo" src="./assets/img/partnered_socs/durham-compsoc.png" /></a>
+                        <a href="https://hackthemidlands.com"><img class="logo" src="./assets/img/partnered_socs/hackthemidlands.png" /></a>
+                        <a href="https://hackbrunel.com"><img class="logo" src="./assets/img/partnered_socs/hackbrunel.png" /></a>
+                        <a href="https://covhack.org"><img class="logo" src="./assets/img/partnered_socs/covhack.png" /></a>
+                        <a href="https://computingsociety.co.uk"><img class="logo" src="./assets/img/partnered_socs/holloway.svg" /></a>
+                        <a href="https://hacksheffield.com/"><img class="logo" src="./assets/img/partnered_socs/hackSheffield.png" /></a>
+                        <a href="https://twitter.com/meowter_space"><img class="logo" src="./assets/img/partnered_socs/meowter_labs.png" /></a>
+                        <a href="https://hacksocnotts.co.uk"><img class="logo" src="./assets/img/partnered_socs/hacksoc.png" alt="HackSoc Nottingham Logo" /></a>
+                        <a href="https://ruhacks.com"><img class="logo" src="./assets/img/partnered_socs/ruhacks.png" alt="RU Hacks" /></a>
+                        <a href="https://grizzhacks.com"><img class="logo" src="./assets/img/partnered_socs/grizzhacks.png" alt="GrizzHacks" /></a>
+                        <a href="https://rguhack.uk"><img class="logo" src="./assets/img/partnered_socs/rgu.svg" alt="RGU Computing Society" /></a>
+                    </div>
+
+                    <h2>With thanks to</h2>
+                    <div class="thanksto-logos">
+                        <a href="https://balsamiq.com/"><img class="logo" src="./assets/img/thanks_to/balsamiq.svg" /></a>
+                    </div>
+
+                    <h2>Brought to you by</h2>
+                    <div class="team">
+                        <a href="https://linkedin.com/in/JackBiggin"><img src="./assets/img/team/jack.jpg" /> <div>Jacklyn Biggin<div>Lead Organiser</div></div></a>
+                        <a href="https://twitter.com/baahorn"><img src="./assets/img/team/beowulf.jpg" /> <div>B Horn<div>Tech Lead</div></div></a>
+                        <a href="https://will-russell.com"><img src="./assets/img/team/will.jpg" /> <div>Will Russell<div>Outreach Lead</div></div></a>
+                        <a href="https://community.dur.ac.uk/karl.southern"><img src="./assets/img/team/karl.jpg" /> <div>Karl Southern<div>Workshop Lead</div></div></a>
+                        <a href="https://thomas.misson.info"><img src="./assets/img/team/tom_m.jpg" /> <div>Tom Misson<div>Publicity Lead</div></div></a>
+                        <a href="https://kings.ly"><img src="./assets/img/team/jon.jpg" /> <div>Jon Kingsley<div>A/V Lead</div></div></a>
+                        <a href="https://twitter.com/TauOmicronMu"><img src="./assets/img/team/tom_g.jpg" /> <div>Tom Goodman<div>Science Lead</div></div></a>
+                        <a href="https://twitter.com/chemiskitty"><img src="./assets/img/team/kat.jpg" /> <div>Kat O'Leary<div>Communications</div></div></a>
+                        <a href="https://twitter.com/HolyEverest"><img src="./assets/img/team/holly.jpg" /> <div>Holly Everett<div>Graphic Designer</div></div></a>
+                        <a href="https://www.linkedin.com/in/hamish-sams-2ba767153/"><img src="./assets/img/team/hamish.jpg" /> <div>Hamish Sams<div>Team Member</div></div></a>
+                        <a href="https://twitter.com/smailesyboi"><img src="./assets/img/team/josh.jpg" /> <div>Josh Smailes<div>Tech, A/V</div></div></a>
+                        <a href="https://www.linkedin.com/in/danielfspencer/"><img src="./assets/img/team/daniel.jpg" /> <div>Daniel Spencer<div>Team Member</div></div></a>
+                        <a href="https://www.linkedin.com/in/thomas-nudd-99134b171/"><img src="./assets/img/team/placeholder.png" /> <div>Tom Nudd<div>Side Events Lead</div></div></a>
+                        <a href="https://www.twitter.com/aaronosher/"><img src="./assets/img/team/aaron.jpg" /> <div>Aaron Osher<div>Team Member</div></div></a>
+                        <a href="http://shriyash.io/"><img src="./assets/img/team/shriyash.jpg" /> <div>Shriyash Jalukar<div>Team Member</div></div></a>
+                        <!--<a href="https://www.linkedin.com/in/natalie-smith-777871196/"><img src="./assets/img/team/natalie.jpg" /> <div>Natalie Smith<div>Team Member</div></div></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

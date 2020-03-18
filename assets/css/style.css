@@ -1,0 +1,250 @@
+/* font override */
+p, h1, h2, h3, h4, h5, h6, button, .powered-by, .tagline, .headline-date {
+    font-family: "Source Code Pro", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #f1f2f6;
+}
+body {
+    background-color: #0e1428;
+    overflow-x: hidden;
+}
+
+.hero {
+
+    height: calc(100vh - 2em);
+    text-align: center;
+    background-color: transparent;
+}
+
+.hero::before{
+    width: 100%;
+    height: calc(100vh - 2em);
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    z-index: -1;
+    background: 
+    linear-gradient(
+    rgba(14, 20, 40, 0.85), 
+    rgba(14, 20, 40, 0.85)
+    ),
+    /* bottom, image */
+    url("/assets/img/hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.checkered {
+    background-color: black;
+    background-image: linear-gradient(45deg, #EBC805 25%, transparent 25%), linear-gradient(-45deg, #EBC805 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #EBC805 75%), linear-gradient(-45deg, transparent 75%, #EBC805 75%);
+    background-size: 1em 1em;
+    background-position: 0 0, 0 0.5em, 0.5em -0.5em, -0.5em 0px;  
+}
+
+.checkered-dimmed {
+    background-color: black;
+    background-image: linear-gradient(45deg, #856200 25%, transparent 90%), linear-gradient(-45deg, #856200 25%, transparent 90%), linear-gradient(45deg, transparent 90%, #856200 75%), linear-gradient(-45deg, transparent 90%, #856200 75%);
+    background-size: 2em 2em;
+    background-position: 0 0, 0 1em, 1em -1em, -1em 0px;  
+}
+
+
+.line {
+    width: 100vw;
+    height: 2em;
+}
+
+.my-auto { /* fixes hero centering */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0;
+}
+
+.hero .tagline {
+    color: #EBC805;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.hero .headline-date {
+    color: #EBC805;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hero .btn-outline-primary {
+    color: #EBC805;
+    border-color: #EBC805;
+    border-radius: 0;
+    margin: 0.25em;
+}
+
+.hero .btn-outline-primary:hover, .hero .btn-outline-primary:active:focus {
+    background-color: #EBC805;
+    color: #0e1428;
+}
+
+.hero .btn-primary {
+    color: #0e1428;
+    background-color: #EBC805;
+    border-color: #EBC805;
+    border-radius: 0;
+    margin: 0.25em;
+}
+
+.hero .btn-primary:hover, .hero .btn-primary:active:focus {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #0e1428;
+}
+
+.hero .powered-by {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.hero .powered-by img {
+    height: 2em;
+}
+
+.page-content {
+    margin-top: 2em;
+}
+
+.page-content p {
+    color: #f1f2f6;
+}
+
+footer {
+    background-color: #1a1a1a;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #f1f2f6;
+}
+
+.poweredby-logos {
+    text-align: center;
+}
+
+.poweredby-logos img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-height: 6em;
+    max-width: 100%;
+}
+
+.partneredwith-logos, .thanksto-logos {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.partneredwith-logos img, .thanksto-logos img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-height: 4em;
+    max-width: 100%;
+}
+
+.team {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.team a {
+    color: #EBC805;
+    font-family: "Source Code Pro", serif;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+}
+
+.team > a > div {
+    margin-top: 0.5em;
+}
+
+.team > a > div > div {
+    color: #ececec;
+    margin-top: -0.25em;
+}
+
+.team a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.team img {
+    border-radius: 50%;
+    width: 8em;
+}
+
+
+#faqs .card-header {
+    padding: 0;
+}
+
+#faqs button {
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#faqs .card {
+    display: inline-block;
+    background-color: #282E42;
+    border: 1px solid #00000F;
+    border-radius: 0;
+    color: #f1f2f6;
+    font-family: "Source Code Pro", serif;
+    width: 100%;
+}
+
+.card-columns {
+    column-count: 1;
+}
+
+@media screen and (min-width: 800px) {
+
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+.hero .logo {
+    width: 100%;
+    padding: 8px;
+}
+
+.tracks h5 {
+    text-align: center;
+}
+
+/*@media only screen and (max-width : 600px) {
+
+.hero .logo {
+width: 70%;
+padding: 8px;
+}
+
+.hero .tagline {
+margin-left: 1em;
+margin-right: 1em;
+}
+
+}*/

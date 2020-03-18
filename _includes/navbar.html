@@ -1,0 +1,25 @@
+<header class="nav-bar">
+	<div class="nav-content">
+	    <!-- Logo and title -->
+		<a class="logo-touch-target" href="{{ '/' | relative_url }}">
+			<img class="logo" src="{{ page.assets.small_logo | relative_url }}" />
+		</a>
+
+	    <!-- Toggle menu -->
+		<a id="pull" href="#">
+			<i class="fa fa-bars"></i>
+		</a>
+	    <nav class="clear">
+		    <ul class="hide">
+		        {%- for page in site.pages -%}
+					{%- if page.layout == "plain" -%}
+		            <li class="separator"></li><li><a title="{{ page.title }}" href="{{ page.url | relative_url }}">
+		                    {{- page.title -}}
+		                </a>
+		            </li>
+					{%- endif -%}
+		        {%- endfor -%}
+		    </ul>
+		</nav>
+	</div>
+</header>
