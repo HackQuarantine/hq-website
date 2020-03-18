@@ -21,8 +21,9 @@ jobs:
         args: git submodule update --init --remote --merge
     
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.5.0
+      uses: s0/git-publish-subdir-action@master
       env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./
+        REPO: git@github.com:HackQuarantine/hq-website.git
+        BRANCH: gh-pages
+        SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+
