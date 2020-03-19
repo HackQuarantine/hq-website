@@ -1,5 +1,9 @@
 body {
-    background-color: #0e1428;
+  background-color: #0e1428;
+}
+
+.fc-event {
+  border: none !important;
 }
 
 #event-modal h4, #event-modal p {

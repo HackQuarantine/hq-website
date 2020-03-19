@@ -1,4 +1,8 @@
 /* global $, FullCalendar */
+const EVENT_COLOURS = {
+  ceremony: '#6b1d1d',
+  workshop: '#111111'
+}
 
 const CALENDAR_ID = 'hacksocnotts.co.uk_5m2l3o30k13frs9nd9dmh9rk8o@group.calendar.google.com'
 const CALENDAR_KEY = 'AIzaSyBzgsuQnfQ7g_zMSsmll7XosF5ZxpJZaWk'
@@ -67,7 +71,16 @@ document.addEventListener('DOMContentLoaded', () => {
         listDayAltFormat: { weekday: 'long' }
       }
     },
-    eventClick: displayEvent
+    eventClick: displayEvent,
+    eventRender: (info) => {
+      try {
+        const details = JSON.parse(info.event._def.extendedProps.description)
+        const color = EVENT_COLOURS[details.type]
+        info.el.style.background = color
+      } catch (e) {
+        console.error('cannot parse event details/ find colour')
+      }
+    }
   })
   document.getElementById('timezone').innerHTML = `All times are in your local timezone! (${Intl.DateTimeFormat().resolvedOptions().timeZone})`
 
@@ -97,24 +110,28 @@ function getCalendarMode () {
 function displayEvent (info) {
   info.jsEvent.preventDefault()
 
-  console.log(info.event._def)
-
-  let organiser = info.event._def.extendedProps.location
-  let description = info.event._def.extendedProps.description
-
-  if (organiser === undefined) {
-    organiser = '(no organiser specifed)'
-  }
-
-  if (description === undefined) {
-    description = '(no description specifed)'
-  }
-
   const date = info.event._instance.range
   $('#event-title').text(info.event._def.title)
   $('#event-date').text(FullCalendar.formatRange(date.start, date.end, DATE_RANGE_FORMAT))
-  $('#event-person').text(organiser)
-  $('#event-desc').text(description)
+
+  let details = {}
+  try {
+    details = JSON.parse(info.event._def.extendedProps.description)
+  } catch (e) {
+    console.error('cannot parse event details')
+  }
+  console.log(details)
+
+  if (details.organiser === undefined) {
+    details.organiser = '(no organiser specifed)'
+  }
+
+  if (details.description === undefined) {
+    details.description = '(no description specifed)'
+  }
+
+  $('#event-person').text(details.organiser)
+  $('#event-desc').text(details.description)
 
   $('#event-modal').modal('show')
 }
