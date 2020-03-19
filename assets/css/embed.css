@@ -1,4 +1,12 @@
 #embedded {
+    display: inline-block;
+    width: min-content;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+}
+
+#embedded-iframe {
     border: 0;
     overflow: hidden;
     width: 40vw;
@@ -10,7 +18,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    #embedded {
+    #embedded-iframe, #embedded {
         margin-left: calc(-50vw + 50%);
         width: 100vw !important;
         max-width: 100vw !important;
@@ -22,7 +30,7 @@
         height: auto;
     }
 
-    #embedded {
+    #embedded-iframe {
         width: 60vw;
         max-width: 640px;
     }
