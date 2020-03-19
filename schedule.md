@@ -36,7 +36,7 @@ scripts:
 <div id="timezone"></div>
 
 <div id="colour-key-container">
-  <b>Event types:</b>
+  <b>Event Types</b>
   <div id="colour-key">
     {% for event in site.data.event_colours %}
       <div class="type-{{ event[0] }}">{{ event[1].name }}</div>

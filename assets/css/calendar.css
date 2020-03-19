@@ -4,10 +4,13 @@ body {
 
 #colour-key {
   display: flex;
+  justify-content: center;
 }
 
 #colour-key-container {
-  margin: 1em 0;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 #colour-key > div {
