@@ -1,16 +1,16 @@
-/* global fetch */
+/* global $, fetch */
 
 const ASPECT_RATIO = 16 / 9
-const CHECK_INTERVAL = 1 // min
+const CHECK_INTERVAL = 45 // seconds
 const TIMEOUT = 5 // seconds
-const STREAM_ID = '50148362'
+const CHANNEL_ID = '500005029'
 const CLIENT_ID = '5a3ubdltdp7arafxr8ykkz960koksh'
 
 window.addEventListener('resize', resizeEmbedded)
 document.addEventListener('DOMContentLoaded', () => {
   resizeEmbedded()
   checkForStream()
-  setInterval(checkForStream, CHECK_INTERVAL * 60 * 1000)
+  setInterval(checkForStream, CHECK_INTERVAL * 1000)
 })
 
 function resizeEmbedded () {
@@ -18,20 +18,44 @@ function resizeEmbedded () {
   elem.height = elem.offsetWidth / ASPECT_RATIO
 }
 
+function displayStreamStatus (online, fullName) {
+  if (online) {
+    let eventName = /Hack Quarantine - (.*)/.exec(fullName)[1]
+
+    if (eventName === undefined) {
+      eventName = fullName
+    }
+
+    $('#embedded-viewer').css('display', 'block')
+    $('#embedded-status-text').text('LIVE - ')
+    $('#embedded-status-icon').css('color', 'red')
+    $('#embedded-title').text(eventName)
+    resizeEmbedded()
+  } else {
+    $('#embedded-viewer').css('display', 'none')
+    $('#embedded-status-text').text('OFFLINE')
+    $('#embedded-status-icon').css('color', 'gray')
+  }
+}
+
 function checkForStream () {
   console.log('Checking if stream is live...')
 
   getSteamData()
     .then((data) => {
-      if (!('stream' in data)) {
+      if (!('streams' in data)) {
         throw new Error('Malformed reponse from Twitch')
       }
 
-      if (data.stream === null) {
+      if (data.streams.length === 0) {
         console.log(' - stream is not live')
+        displayStreamStatus(false)
       } else {
         console.log(' - stream is LIVE')
-        console.log(data.stream)
+        const name = data.streams[0].channel.status
+        console.log(` - title is ${name}`)
+
+        displayStreamStatus(true, name)
       }
     })
     .catch((err) => {
@@ -40,7 +64,7 @@ function checkForStream () {
 }
 
 function getSteamData (res, err) {
-  const url = `https://api.twitch.tv/kraken/streams/${STREAM_ID}`
+  const url = `https://api.twitch.tv/kraken/streams/?channel=${CHANNEL_ID}`
 
   return Promise.race([
     fetch(url, {

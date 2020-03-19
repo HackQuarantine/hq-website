@@ -1,3 +1,7 @@
+#embedded-viewer {
+    display: none;
+}
+
 #embedded {
     display: inline-block;
     width: min-content;
@@ -21,10 +25,6 @@
     overflow: hidden;
     width: 40vw;
     max-width: 640px;
-}
-
-#main-container {
-    flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 600px) {
