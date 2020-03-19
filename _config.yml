@@ -17,6 +17,7 @@ defaults:
         linkedin: https://www.linkedin.com/company/hackquarantine/
         schedule: /schedule
         emails: 'https://cdn.forms-content.sg-form.com/2e1cc968-66fa-11ea-9912-5e37fcc2990c'
+        donate: /donate
 
 
 collections_dir: _collections
