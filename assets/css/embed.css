@@ -2,8 +2,18 @@
     display: inline-block;
     width: min-content;
     background-color: white;
-    padding: 10px;
     box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+    border-radius: 6px;
+}
+
+#embedded-header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+#embedded-header > * {
+    display: inline-block;
 }
 
 #embedded-iframe {
