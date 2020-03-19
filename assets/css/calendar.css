@@ -2,6 +2,16 @@ body {
   background-color: #0e1428;
 }
 
+#colour-key {
+  display: flex;
+}
+
+#colour-key > * {
+  font-weight: bold;
+  padding: 0.1em 0.5em;
+  border-radius: 0.5em;
+}
+
 .fc-event {
   border: none !important;
 }

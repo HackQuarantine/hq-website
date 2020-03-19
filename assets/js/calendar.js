@@ -1,8 +1,4 @@
 /* global $, FullCalendar */
-const EVENT_COLOURS = {
-  ceremony: '#6b1d1d',
-  workshop: '#111111'
-}
 
 const CALENDAR_ID = 'hacksocnotts.co.uk_5m2l3o30k13frs9nd9dmh9rk8o@group.calendar.google.com'
 const CALENDAR_KEY = 'AIzaSyBzgsuQnfQ7g_zMSsmll7XosF5ZxpJZaWk'
@@ -75,8 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     eventRender: (info) => {
       try {
         const details = JSON.parse(info.event._def.extendedProps.description)
-        const color = EVENT_COLOURS[details.type]
-        info.el.style.background = color
+        info.el.classList.add(`type-${details.type}`)
       } catch (e) {
         console.error('cannot parse event details/ find colour')
       }

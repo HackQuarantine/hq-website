@@ -35,7 +35,12 @@ scripts:
 
 <div id="timezone"></div>
 
-<br />
+<div id="colour-key">
+Event types:
+  {% for event in site.data.event_colours %}
+    <div class="type-{{ event[0] }}">{{ event[1].name }}</div>
+  {% endfor %}
+</div>
 
 <div id="calendar"></div>
 <div id="event-modal" class="modal fade" tabindex="-1" role="dialog">
@@ -56,3 +61,9 @@ scripts:
     </div>
   </div>
 </div>
+
+<style>
+  {% for event in site.data.event_colours %}
+    .type-{{ event[0] }} { background: {{ event[1].colour }}; }
+  {% endfor %}
+</style>
