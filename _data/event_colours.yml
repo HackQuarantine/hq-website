@@ -1,0 +1,6 @@
+ceremony:
+  name: Ceremonies
+  colour: "#6b1d1d"
+workshop:
+  name: Workshops
+  colour: "#2a4642"
