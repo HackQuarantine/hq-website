@@ -6,11 +6,16 @@ body {
   display: flex;
 }
 
+#colour-key-container {
+  margin: 1em 0;
+}
+
 #colour-key > div {
   font-weight: bold;
   padding: 0.1em 0.5em;
   border-radius: 0.5em;
   box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+  margin-right: 0.5em;
 }
 
 .fc-event {
