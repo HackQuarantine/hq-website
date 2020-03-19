@@ -77,19 +77,19 @@ body {
     font-weight: bold;
 }
 
-.hero .btn-outline-primary {
+.buttons .btn-outline-primary {
     color: #EBC805;
     border-color: #EBC805;
     border-radius: 0;
     margin: 0.25em;
 }
 
-.hero .btn-outline-primary:hover, .hero .btn-outline-primary:active:focus {
+.buttons .btn-outline-primary:hover, .buttons .btn-outline-primary:active:focus {
     background-color: #EBC805;
     color: #0e1428;
 }
 
-.hero .btn-primary {
+.buttons .btn-primary {
     color: #0e1428;
     background-color: #EBC805;
     border-color: #EBC805;
@@ -97,7 +97,7 @@ body {
     margin: 0.25em;
 }
 
-.hero .btn-primary:hover, .hero .btn-primary:active:focus {
+.buttons .btn-primary:hover, .hero .btn-primary:active:focus {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #0e1428;
