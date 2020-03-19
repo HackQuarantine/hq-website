@@ -125,8 +125,13 @@ function displayEvent (info) {
     details.description = '(no description specifed)'
   }
 
+  if (details.type === undefined) {
+    details.type = '(no type specifed)'
+  }
+
   $('#event-person').text(details.organiser)
   $('#event-desc').text(details.description)
+  $('#event-type').text(details.type)
 
   $('#event-modal').modal('show')
 }

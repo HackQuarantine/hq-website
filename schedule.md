@@ -53,6 +53,7 @@ Event types:
         </button>
       </div>
       <div class="modal-body">
+      <div><i class="material-icons">label</i> Type - <b id="event-type"></b></div>
         <div><i class="material-icons">access_time</i> Date - <b id="event-date"></b></div>
         <div><i class="material-icons">person</i> Organiser - <b id="event-person"></b></div>
         <hr>
