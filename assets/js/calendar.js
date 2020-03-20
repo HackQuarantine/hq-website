@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     previousDisplayWidth = window.innerWidth
   })
 
+  previousDisplayWidth = window.innerWidth
   calendar.render()
 })
 
