@@ -27,9 +27,9 @@ body {
     left: 0;
     content: " ";
     z-index: -1;
-    background: 
+    background:
     linear-gradient(
-    rgba(14, 20, 40, 0.85), 
+    rgba(14, 20, 40, 0.85),
     rgba(14, 20, 40, 0.85)
     ),
     /* bottom, image */
@@ -43,14 +43,14 @@ body {
     background-color: black;
     background-image: linear-gradient(45deg, #EBC805 25%, transparent 25%), linear-gradient(-45deg, #EBC805 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #EBC805 75%), linear-gradient(-45deg, transparent 75%, #EBC805 75%);
     background-size: 1em 1em;
-    background-position: 0 0, 0 0.5em, 0.5em -0.5em, -0.5em 0px;  
+    background-position: 0 0, 0 0.5em, 0.5em -0.5em, -0.5em 0px;
 }
 
 .checkered-dimmed {
     background-color: black;
     background-image: linear-gradient(45deg, #856200 25%, transparent 90%), linear-gradient(-45deg, #856200 25%, transparent 90%), linear-gradient(45deg, transparent 90%, #856200 75%), linear-gradient(-45deg, transparent 90%, #856200 75%);
     background-size: 2em 2em;
-    background-position: 0 0, 0 1em, 1em -1em, -1em 0px;  
+    background-position: 0 0, 0 1em, 1em -1em, -1em 0px;
 }
 
 
@@ -77,19 +77,19 @@ body {
     font-weight: bold;
 }
 
-.buttons .btn-outline-primary {
+.btn-outline-primary {
     color: #EBC805;
     border-color: #EBC805;
     border-radius: 0;
     margin: 0.25em;
 }
 
-.buttons .btn-outline-primary:hover, .buttons .btn-outline-primary:active:focus {
+.btn-outline-primary:hover, .btn-outline-primary:active:focus {
     background-color: #EBC805;
     color: #0e1428;
 }
 
-.buttons .btn-primary {
+.btn-primary {
     color: #0e1428;
     background-color: #EBC805;
     border-color: #EBC805;
@@ -97,7 +97,7 @@ body {
     margin: 0.25em;
 }
 
-.buttons .btn-primary:hover, .hero .btn-primary:active:focus {
+.btn-primary:hover, .btn-primary:active:focus {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #0e1428;
