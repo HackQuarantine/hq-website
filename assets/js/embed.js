@@ -8,7 +8,6 @@ const CLIENT_ID = '5a3ubdltdp7arafxr8ykkz960koksh'
 
 window.addEventListener('resize', resizeIframes)
 document.addEventListener('DOMContentLoaded', () => {
-  resizeIframes()
   checkForStream()
   setInterval(checkForStream, CHECK_INTERVAL * 1000)
 })
