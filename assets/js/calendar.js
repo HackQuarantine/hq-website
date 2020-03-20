@@ -70,7 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
     eventClick: displayEvent,
     eventRender: (info) => {
       try {
-        const details = JSON.parse(info.event._def.extendedProps.description)
+        const raw = info.event._def.extendedProps.description
+        const details = JSON.parse(/\s*(.*)\s*/.exec(raw)[1])
         info.el.classList.add(`type-${details.type}`)
       } catch (e) {
         console.error('cannot parse event details/ find colour')
