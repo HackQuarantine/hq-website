@@ -12,6 +12,11 @@ body {
     overflow-x: hidden;
 }
 
+#mlh-trust-badge {
+    height: 0;
+    position: absolute !important;
+}
+
 .hero {
 
     height: calc(100vh - 2em);
