@@ -3,10 +3,29 @@
     {% include header.html %}
     <body>
 
+	<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/eu-2020/events?utm_source=eu-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
+
         {% include hero.html %}
         <div class="checkered line"></div>
 
         <div class="container page-content">
+            <div class="align-self-center justify-content-center row">
+              <a href="{{ page.socials.twitter }}">
+                  <button type="button" class="btn btn-outline-primary"><i class="fab fa-twitter"></i> Twitter</button>
+              </a>
+
+              <a href="{{ page.socials.facebook }}">
+                  <button type="button" class="btn btn-outline-primary"><i class="fab fa-facebook"></i> Facebook</button>
+              </a>
+
+              <a href="{{ page.socials.instagram }}">
+                  <button type="button" class="btn btn-outline-primary"><i class="fab fa-instagram"></i> Instagram</button>
+              </a>
+
+              <a href="{{ page.socials.linkedin }}">
+                  <button type="button" class="btn btn-outline-primary"><i class="fab fa-linkedin"></i> LinkedIn</button>
+              </a>
+            </div>
             <div class="row">
                 <div class="col-12">
                     {{ content }}
@@ -70,27 +89,40 @@
                         <a href="https://ruhacks.com"><img class="logo" src="./assets/img/partnered_socs/ruhacks.png" alt="RU Hacks" /></a>
                         <a href="https://grizzhacks.com"><img class="logo" src="./assets/img/partnered_socs/grizzhacks.png" alt="GrizzHacks" /></a>
                         <a href="https://rguhack.uk"><img class="logo" src="./assets/img/partnered_socs/rgu.svg" alt="RGU Computing Society" /></a>
-			<a href="https://union.ic.ac.uk/medic/medtechimperial/"><img class="logo" src="./assets/img/partnered_socs/MedTechICL.png" alt="MedTech Imperial" /></a>
-			<a href="https://hacktheburgh.com"><img class="logo" src="./assets/img/partnered_socs/HacktheBurghVI.svg" alt="Hack the Burgh VI" /></a>
-                    	<a href="https://gutechsoc.com/"><img class="logo" src="./assets/img/partnered_socs/GUTS.png" alt="Glasgow University Tech Society" /></a>			
-                    	<a href="http://cssbham.com/"><img class="logo" src="./assets/img/partnered_socs/cssuob.png" alt="Computer Science Society - University of Birmingham" /></a>
-                        <a href="https://www.facebook.com/GUSecSoc/"><img class="logo" src="./assets/img/partnered_socs/GUSEC.png" alt="Glasgow University Security Society" /></a>			
+                        <a href="https://union.ic.ac.uk/medic/medtechimperial/"><img class="logo" src="./assets/img/partnered_socs/MedTechICL.png" alt="MedTech Imperial" /></a>
+                        <a href="https://hacktheburgh.com"><img class="logo" src="./assets/img/partnered_socs/HacktheBurghVI.svg" alt="Hack the Burgh VI" /></a>
+                    	<a href="https://gutechsoc.com/"><img class="logo" src="./assets/img/partnered_socs/GUTS.png" alt="Glasgow University Tech Society" /></a>
+                    	<a href="https://cssbham.com/"><img class="logo" src="./assets/img/partnered_socs/cssuob.png" alt="Computer Science Society - University of Birmingham" /></a>
+                        <a href="https://www.facebook.com/GUSecSoc/"><img class="logo" src="./assets/img/partnered_socs/GUSEC.png" alt="Glasgow University Security Society" /></a>
+                    	<a href="https://stayhomehack.com/"><img class="logo" src="./assets/img/partnered_socs/stayhomehack.png" alt="Stay Home Hack" /></a>
+                        <a href="https://brumsci.com"><img class="logo" src="./assets/img/partnered_socs/brumscicomm.png" alt="BrumSciComm" /></a>
+                        <a href="https://twitter.com/WISEatUoB/"><img style="max-height: 5em; padding: 0.5em; background: white; border-radius: 0.5em;" class="logo" src="./assets/img/partnered_socs/wiseuob.png" alt="WISE – Birmingham" /></a>
+                        <a href="https://wizathon.in/"><img style="max-height: 6em;" class="logo" src="./assets/img/partnered_socs/wiz-a-thon.png" alt="Wiz-A-Thon" /></a>
+                        <a href="https://github.com/Leader-board/St-Andrews-Competitive-Programming"><img style="max-height: 6em; padding: 0.5em; background: white; border-radius: 0.5em;" class="logo" src="./assets/img/partnered_socs/standrews.png" alt="St Andrews Competitive Programming" /></a>
 		    </div>
 
                     <h2>With thanks to</h2>
                     <div class="thanksto-logos">
-                        <a href="https://balsamiq.com/"><img class="logo" src="./assets/img/thanks_to/balsamiq.svg" /></a>
-                        <a href="https://platter.dev/"><img style="max-height: 7em;" class="logo" src="./assets/img/thanks_to/platter.png" /></a>
+                        <a href="https://balsamiq.com/"><img class="logo" src="./assets/img/thanks_to/balsamiq.svg" alt="balsamiq - Life's too short for bad software!"/></a>
+                        <a href="https://platter.dev/"><img style="max-height: 7em;" class="logo" src="./assets/img/thanks_to/platter.png" alt="Platter - Click once, build anything"/></a>
+
+                        <a href="https://radar.io/"><img class="logo" src="./assets/img/thanks_to/radar.svg" alt="Radar - infrastructure"/></a>
+                        <a href="https://ggservers.com/"><img class="logo" src="./assets/img/thanks_to/GGservers.png" alt="MINECRAFT SERVER HOSTING"/></a>
+                        <a href="https://mlh.io/"><img class="logo" src="./assets/img/thanks_to/mlh-logo-white.svg" alt="Major League Hacking"/></a>
+
+                        <a href="https://blockstack.org/"><img class="logo" src="./assets/img/thanks_to/blockstack.svg" alt="Blockstack - Decentralized computing network and app ecosystem"/></a>
+                        <a href="https://www.algolia.com"><img class="logo" src="./assets/img/thanks_to/algolia.png" alt="Algolia"/></a>
+
                     </div>
 
                     <h2>Brought to you by</h2>
                     <div class="team">
                         <a href="https://linkedin.com/in/JackBiggin"><img src="./assets/img/team/jack.jpg" /> <div>Jacklyn Biggin<div>Lead Organiser</div></div></a>
                         <a href="https://twitter.com/baahorn"><img src="./assets/img/team/beowulf.jpg" /> <div>B Horn<div>Tech Lead</div></div></a>
-                        <a href="https://will-russell.com"><img src="./assets/img/team/will.jpg" /> <div>Will Russell<div>Outreach Lead</div></div></a>
+                        <a href="https://will-russell.com"><img src="./assets/img/team/will.jpg" /> <div>Will Russell<div>Coordinator</div></div></a>
                         <a href="https://community.dur.ac.uk/karl.southern"><img src="./assets/img/team/karl.jpg" /> <div>Karl Southern<div>Workshop Lead</div></div></a>
                         <a href="https://thomas.misson.info"><img src="./assets/img/team/tom_m.jpg" /> <div>Tom Misson<div>Publicity Lead</div></div></a>
-                        <a href="https://kings.ly"><img src="./assets/img/team/jon.jpg" /> <div>Jon Kingsley<div>A/V Lead</div></div></a>
+                        <a href="https://twitter.com/JFKingsley"><img src="./assets/img/team/jon.jpg" /> <div>Jon Kingsley<div>Infrastructure Lead</div></div></a>
                         <a href="https://twitter.com/TauOmicronMu"><img src="./assets/img/team/tom_g.jpg" /> <div>Tom Goodman<div>Science Lead</div></div></a>
                         <a href="https://twitter.com/chemiskitty"><img src="./assets/img/team/kat.jpg" /> <div>Kat O'Leary<div>Communications</div></div></a>
                         <a href="https://twitter.com/HolyEverest"><img src="./assets/img/team/holly.jpg" /> <div>Holly Everett<div>Graphic Designer</div></div></a>
@@ -101,6 +133,7 @@
                         <a href="https://www.twitter.com/aaronosher/"><img src="./assets/img/team/aaron.jpg" /> <div>Aaron Osher<div>Team Member</div></div></a>
                         <a href="http://shriyash.io/"><img src="./assets/img/team/shriyash.jpg" /> <div>Shriyash Jalukar<div>Team Member</div></div></a>
                         <a href="https://www.linkedin.com/in/thomas-nudd-99134b171/"><img src="./assets/img/team/placeholder.png" /> <div>Tom Nudd<div>Side Events Lead</div></div></a>
+                        <a href="https://twitter.com/nuqueerengineer"><img src="./assets/img/team/avery.jpg" /> <div>Avery Cunningham<div>Co-Science Lead</div></div></a>
                         <!--<a href="https://www.linkedin.com/in/natalie-smith-777871196/"><img src="./assets/img/team/natalie.jpg" /> <div>Natalie Smith<div>Team Member</div></div></a> -->
                     </div>
                 </div>
