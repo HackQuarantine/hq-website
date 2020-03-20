@@ -27,6 +27,7 @@ const DATE_RANGE_FORMAT = {
 
 let calendar
 let calendarElement
+let previousDisplayWidth
 
 document.addEventListener('DOMContentLoaded', () => {
   calendarElement = document.querySelector('#calendar')
@@ -73,16 +74,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const details = JSON.parse(info.event._def.extendedProps.description)
         info.el.classList.add(`type-${details.type}`)
       } catch (e) {
-        console.error('cannot parse event details/ find colour')
+        console.error(`invalid JSON in '${info.event._def.title}' on ${info.event._instance.range.start}:\n${info.event._def.extendedProps.description}`)
       }
     }
   })
   document.getElementById('timezone').innerHTML = `All times are in your local timezone! (${Intl.DateTimeFormat().resolvedOptions().timeZone})`
 
   window.addEventListener('resize', () => {
-    calendar.changeView(getCalendarMode())
+    if (window.innerWidth !== previousDisplayWidth) {
+      calendar.changeView(getCalendarMode())
+    }
+
+    previousDisplayWidth = window.innerWidth
   })
 
+  previousDisplayWidth = window.innerWidth
   calendar.render()
 })
 

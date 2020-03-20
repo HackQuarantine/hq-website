@@ -4,3 +4,9 @@ ceremony:
 workshop:
   name: Workshops
   colour: "#2a4642"
+checkpoint:
+  name: Checkpoints
+  colour: "#886600"
+side-event:
+  name: Side Events
+  colour: "#5c6d6d"
