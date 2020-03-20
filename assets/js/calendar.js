@@ -27,6 +27,7 @@ const DATE_RANGE_FORMAT = {
 
 let calendar
 let calendarElement
+let previousDisplayWidth
 
 document.addEventListener('DOMContentLoaded', () => {
   calendarElement = document.querySelector('#calendar')
@@ -80,9 +81,14 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('timezone').innerHTML = `All times are in your local timezone! (${Intl.DateTimeFormat().resolvedOptions().timeZone})`
 
   window.addEventListener('resize', () => {
-    calendar.changeView(getCalendarMode())
+    if (window.innerWidth !== previousDisplayWidth) {
+      calendar.changeView(getCalendarMode())
+    }
+
+    previousDisplayWidth = window.innerWidth
   })
 
+  previousDisplayWidth = window.innerWidth
   calendar.render()
 })
 
