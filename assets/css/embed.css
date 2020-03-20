@@ -37,6 +37,7 @@
     border: none;
     width: 100%;
     overflow: hidden;
+    background: #2c2c2c;
 }
 
 @media screen and (max-width: 600px) {

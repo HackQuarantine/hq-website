@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     plugins: ['bootstrap', 'googleCalendar', 'list'],
     defaultView: 'list',
     header: false,
+    height: () => { return window.innerHeight },
     defaultDate: new Date(),
     googleCalendarApiKey: CALENDAR_KEY,
     events: {
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     },
-    eventClick: () => {},
+    eventClick: (info) => info.jsEvent.preventDefault(),
     eventRender: (info) => {
       try {
         const details = JSON.parse(info.event._def.extendedProps.description)
