@@ -20,22 +20,51 @@ function resizeEmbedded () {
 
 function displayStreamStatus (online, fullName) {
   if (online) {
-    let eventName = /Hack Quarantine - (.*)/.exec(fullName)[1]
+    let eventName = /Hack Quarantine - (.*)/.exec(fullName)
 
-    if (eventName === undefined) {
+    if (eventName === null) {
       eventName = fullName
+    } else {
+      eventName = eventName[1]
     }
 
+    const eventLive = eventName !== 'No Event'
+
+    if (eventLive) {
+      $('#embedded-status-text').text('LIVE - ')
+      $('#embedded-status-icon').css('color', 'red')
+      $('#embedded-title').text(eventName)
+
+      showStream()
+    } else {
+      $('#embedded-status-text').text('OFFLINE - ')
+      $('#embedded-status-icon').css('color', 'gray')
+      $('#embedded-title').text('Upcoming Events')
+
+      showSchedule()
+    }
+  }
+
+  setEmbedVisibility(online)
+}
+
+function setEmbedVisibility (show) {
+  if (show) {
     $('#embedded-viewer').css('display', 'block')
-    $('#embedded-status-text').text('LIVE - ')
-    $('#embedded-status-icon').css('color', 'red')
-    $('#embedded-title').text(eventName)
-    resizeEmbedded()
   } else {
     $('#embedded-viewer').css('display', 'none')
-    $('#embedded-status-text').text('OFFLINE')
-    $('#embedded-status-icon').css('color', 'gray')
   }
+}
+
+function showStream () {
+  $('#embedded-iframe').css('display', 'block')
+  $('#embedded-schedule').css('display', 'none')
+  resizeEmbedded()
+}
+
+function showSchedule () {
+  $('#embedded-iframe').css('display', 'none')
+  $('#embedded-schedule').css('display', 'block')
 }
 
 function checkForStream () {
