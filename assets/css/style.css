@@ -12,6 +12,22 @@ body {
     overflow-x: hidden;
 }
 
+#mlh-trust-badge {
+    height: 0;
+    position: absolute !important;
+}
+
+#logo-elem {
+    align-self: center;
+}
+
+@media screen and (max-width: 417px) {
+    #logo-elem {
+        margin-top: 100px;
+        align-self: normal;
+    }
+}
+
 .hero {
 
     height: calc(100vh - 2em);
