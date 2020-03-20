@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const details = JSON.parse(info.event._def.extendedProps.description)
         info.el.classList.add(`type-${details.type}`)
       } catch (e) {
-        console.error('cannot parse event details/ find colour')
+        console.error(`invalid JSON in '${info.event._def.title}' on ${info.event._instance.range.start}:\n${info.event._def.extendedProps.description}`)
       }
     }
   })
