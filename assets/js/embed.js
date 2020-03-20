@@ -56,6 +56,7 @@ function setEmbedVisibility (show) {
   } else {
     $('#embedded-viewer').css('display', 'none')
   }
+  resizeIframes()
 }
 
 function showStream () {
