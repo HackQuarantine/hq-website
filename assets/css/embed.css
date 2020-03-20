@@ -10,10 +10,11 @@
     display: inline-block;
     width: min-content;
     background-color: white;
-    box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3),0 1rem 2rem rgb(0, 0, 0, 0.3);
     border-radius: 6px;
     margin-top: 1em;
     margin-bottom: 1em;
+    overflow: hidden;
 }
 
 #embedded-header {
