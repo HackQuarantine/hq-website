@@ -5,11 +5,12 @@ body {
 #colour-key {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #colour-key-container {
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   text-align: center;
 }
 
@@ -19,6 +20,7 @@ body {
   border-radius: 0.5em;
   box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
   margin-right: 0.5em;
+  height: max-content;
 }
 
 .fc-event {
