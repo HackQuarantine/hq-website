@@ -6,16 +6,18 @@ const TIMEOUT = 5 // seconds
 const CHANNEL_ID = '500005029'
 const CLIENT_ID = '5a3ubdltdp7arafxr8ykkz960koksh'
 
-window.addEventListener('resize', resizeEmbedded)
+window.addEventListener('resize', resizeIframes)
 document.addEventListener('DOMContentLoaded', () => {
-  resizeEmbedded()
+  resizeIframes()
   checkForStream()
   setInterval(checkForStream, CHECK_INTERVAL * 1000)
 })
 
-function resizeEmbedded () {
-  const elem = document.querySelector('#embedded-iframe')
-  elem.height = elem.offsetWidth / ASPECT_RATIO
+function resizeIframes () {
+  for (const frame of ['#embedded-iframe', '#embedded-schedule']) {
+    const elem = document.querySelector(frame)
+    elem.height = elem.offsetWidth / ASPECT_RATIO
+  }
 }
 
 function displayStreamStatus (online, fullName) {
@@ -59,12 +61,13 @@ function setEmbedVisibility (show) {
 function showStream () {
   $('#embedded-iframe').css('display', 'block')
   $('#embedded-schedule').css('display', 'none')
-  resizeEmbedded()
+  resizeIframes()
 }
 
 function showSchedule () {
   $('#embedded-iframe').css('display', 'none')
   $('#embedded-schedule').css('display', 'block')
+  resizeIframes()
 }
 
 function checkForStream () {
@@ -82,7 +85,7 @@ function checkForStream () {
       } else {
         console.log(' - stream is LIVE')
         const name = data.streams[0].channel.status
-        console.log(` - title is ${name}`)
+        console.log(` - title is '${name}'`)
 
         displayStreamStatus(true, name)
       }

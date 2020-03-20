@@ -1,7 +1,5 @@
 #embedded-iframe {
     display: none;
-    width: 100%;
-    border: none;
 }
 
 #embedded-viewer {
@@ -33,6 +31,12 @@
     overflow: hidden;
     width: 40vw;
     max-width: 640px;
+}
+
+#embedded-content iframe {
+    border: none;
+    width: 100%;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 600px) {
