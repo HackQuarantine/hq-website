@@ -8,6 +8,7 @@
     background-color: white;
     box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
     border-radius: 6px;
+    margin-top: 1em;
 }
 
 #embedded-header {
