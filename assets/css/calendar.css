@@ -1,9 +1,36 @@
 body {
-    background-color: #0e1428;
+  background-color: #0e1428;
 }
 
-#event-modal h1,h2,h3,h4,h5,div,p {
-  font-family: unset;
+#colour-key {
+  display: flex;
+  justify-content: center;
+}
+
+#colour-key-container {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#colour-key > div {
+  font-weight: bold;
+  padding: 0.1em 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+  margin-right: 0.5em;
+}
+
+.fc-event {
+  border: none !important;
+}
+
+#event-modal h4, #event-modal p {
+  font-family: unset !important;
+}
+
+#event-type {
+  text-transform: capitalize;
 }
 
 .material-icons {
@@ -25,7 +52,7 @@ body {
     border-radius:0.25rem;
 }
 
-#calendar h1, h2, h3, h4 {
+#calendar h1, #calendar h2, #calendar h3, #calendar h4 {
     font-family: unset;
 }
 
