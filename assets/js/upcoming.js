@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     eventClick: (info) => {
       info.jsEvent.preventDefault()
-      parent.window.location.href = '/schedule'
+      parent.window.location.href = 'https://hackquarantine.com/schedule'
     },
     eventRender: (info) => {
       try {
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setVisibleRange()
   calendar.render()
 
-  setTimeout(setVisibleRange, RANGE_UPDATE_INTERVAL * 1000)
+  setInterval(setVisibleRange, RANGE_UPDATE_INTERVAL * 1000)
 })
 
 function setVisibleRange () {
