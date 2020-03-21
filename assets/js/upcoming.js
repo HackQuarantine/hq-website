@@ -43,7 +43,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     },
-    eventClick: (info) => info.jsEvent.preventDefault(),
+    eventClick: (info) => {
+      info.jsEvent.preventDefault()
+      parent.window.location.href = '/schedule'
+    },
     eventRender: (info) => {
       try {
         const details = JSON.parse(info.event._def.extendedProps.description)
