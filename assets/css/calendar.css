@@ -25,6 +25,7 @@ body {
 
 .fc-event {
   border: none !important;
+  box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
 }
 
 #event-modal h4, #event-modal p {
