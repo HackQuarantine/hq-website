@@ -12,8 +12,8 @@
     background-color: white;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3),0 1rem 2rem rgb(0, 0, 0, 0.3);
     border-radius: 6px;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     overflow: hidden;
 }
 
@@ -50,10 +50,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .hero {
-        height: auto;
-    }
-
     #embedded-content {
         width: 60vw;
         max-width: 640px;
@@ -62,5 +58,23 @@
 
     #main-container {
         flex-direction: column;
+    }
+
+    .hero::before {
+        display: none;
+    }
+
+    .hero {
+        height: auto;
+        background:
+        linear-gradient(
+        rgba(14, 20, 40, 0.85),
+        rgba(14, 20, 40, 0.85)
+        ),
+        /* bottom, image */
+        url("/assets/img/hero-bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

@@ -18,14 +18,8 @@ body {
 }
 
 #logo-elem {
+    margin-top: 100px;
     align-self: center;
-}
-
-@media screen and (max-width: 417px) {
-    #logo-elem {
-        margin-top: 100px;
-        align-self: normal;
-    }
 }
 
 .hero {
@@ -33,10 +27,9 @@ body {
     width: 100% !important;
     height: calc(100vh - 2em);
     text-align: center;
-    background-color: transparent;
 }
 
-.hero::before{
+ .hero::before{
     width: 100%;
     height: calc(100vh - 2em);
     position: absolute;
@@ -236,6 +229,17 @@ footer {
 
     .card-columns {
         column-count: 2;
+    }
+}
+
+img.logo {
+    max-width: 20em;
+}
+
+@media screen and (min-width: 1000px) {
+
+    img.logo {
+        max-width: 25em;
     }
 }
 
