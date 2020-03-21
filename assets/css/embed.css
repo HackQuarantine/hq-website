@@ -12,8 +12,8 @@
     background-color: white;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3),0 1rem 2rem rgb(0, 0, 0, 0.3);
     border-radius: 6px;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 1em;
     overflow: hidden;
 }
 
@@ -55,9 +55,13 @@
         max-width: 640px;
     }
 
+    #logo-elem {
+        margin-top: 100px;
+    }
 
     #main-container {
         flex-direction: column;
+        padding-bottom: 2em;
     }
 
     .hero::before {
