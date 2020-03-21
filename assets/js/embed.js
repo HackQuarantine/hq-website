@@ -36,7 +36,7 @@ function displayStreamStatus (online, fullName) {
       eventName = eventName[1]
     }
 
-    const eventLive = eventName !== 'No Event'
+    const eventLive = eventName !== 'Online Hackathon!'
 
     if (eventLive) {
       $('#embedded-status-text').text('LIVE - ')
