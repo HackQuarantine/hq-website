@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         slotLabelInterval: '02:00:00',
         slotLabelFormat: DATE_24HR_FORMAT,
         nowIndicator: true,
-        timeGridEventMinHeight: 60
+        timeGridEventMinHeight: 50
       },
       // all upcoming events view
       listYear: {
