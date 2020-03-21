@@ -1,7 +1,7 @@
 /* global $, fetch */
 
 const ASPECT_RATIO = 16 / 9
-const CHECK_INTERVAL = 45 // seconds
+const CHECK_INTERVAL = 60 // seconds
 const TIMEOUT = 5 // seconds
 const CHANNEL_ID = '500005029'
 const CLIENT_ID = '5a3ubdltdp7arafxr8ykkz960koksh'
