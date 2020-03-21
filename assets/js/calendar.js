@@ -56,11 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
       week: {
         columnHeaderFormat: { weekday: 'short' },
         allDaySlot: false,
-        slotDuration: '01:00:00',
-        slotLabelInterval: '02:00:00',
+        slotDuration: '00:30:00',
+        slotLabelInterval: '01:00:00',
         slotLabelFormat: DATE_24HR_FORMAT,
         nowIndicator: true,
-        timeGridEventMinHeight: 50
+        timeGridEventMinHeight: 45
       },
       // all upcoming events view
       listYear: {
