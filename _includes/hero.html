@@ -1,11 +1,9 @@
-<div class="hero container d-flex">
-    <div id="logo-elem" class="justify-content-center w-100">
+<div id="main-container" class="hero container d-flex">
+    <div id="logo-elem" class="col align-self-center justify-content-center">
         <div class="row">
-            <div class="col"></div>
-            <div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-6">
+            <div style="margin: 0 auto;">
                 <img class="logo" src="{{ page.assets.logo }}" />
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col-12 buttons">
@@ -15,9 +13,9 @@
 
                 <div class="tagline">{{ page.tagline }}</div>
                 <!--
-                <a href="{{ page.socials.platform }}">
-                    <button type="button" class="btn btn-outline-primary"><i class="fas fa-flask"></i> Get Started!</button>
-                </a>
+                    <a href="{{ page.socials.platform }}">
+                        <button type="button" class="btn btn-outline-primary"><i class="fas fa-flask"></i> Get Started!</button>
+                    </a>
                 -->
 
                 <div id="register">
@@ -39,6 +37,21 @@
                 <a href="{{ page.socials.donate }}">
                     <button type="button" class="btn btn-outline-primary"><i class="fas fa-money-check-alt"></i> Donate to WHO Fund</button>
                 </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="embedded-viewer" class="col align-self-center">
+        <div id="embedded">
+            <div id="embedded-header">
+                <i id="embedded-status-icon" style="color: gray; margin-right: 0.5em;" class="fas fa-circle"></i><b id="embedded-status-text">OFFLINE</b>
+                <div id="embedded-title"></div>
+            </div>
+
+            <div href="#" id="embedded-content">
+                <iframe id="embedded-schedule" scrolling="no" title="HackQuarantine Upcoming Events" src="/upcoming"></iframe>
+                <iframe id="embedded-iframe" title="HackQuarantine Livestream" src="https://player.twitch.tv/?channel=hackquarantine&muted=1"></iframe>
+                <!-- <iframe id="embedded-iframe" title="HackQuarantine Livestream" src="https://mixer.com/embed/player/HackQuarantine?disableLowLatency=1?muted=1"> </iframe> -->
             </div>
         </div>
     </div>

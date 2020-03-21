@@ -1,5 +1,9 @@
 ---
 layout: default
+styles:
+  - url: /assets/css/embed.css
+scripts:
+  - url: /assets/js/embed.js
 ---
 
 ## What is this about?
