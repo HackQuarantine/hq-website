@@ -22,7 +22,8 @@ const DATE_RANGE_FORMAT = {
   hour: '2-digit',
   minute: '2-digit',
   hour12: false,
-  timeZoneName: 'short'
+  timeZoneName: 'short',
+  timeZone: 'UTC'
 }
 
 let calendar
