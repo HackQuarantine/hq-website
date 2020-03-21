@@ -1,5 +1,6 @@
 #embedded-iframe {
     display: none;
+    pointer-events: none;
 }
 
 #embedded-viewer {

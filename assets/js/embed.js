@@ -6,10 +6,17 @@ const TIMEOUT = 5 // seconds
 const CHANNEL_ID = '500005029'
 const CLIENT_ID = '5a3ubdltdp7arafxr8ykkz960koksh'
 
+let stream = false
+
 window.addEventListener('resize', resizeIframes)
 document.addEventListener('DOMContentLoaded', () => {
   checkForStream()
   setInterval(checkForStream, CHECK_INTERVAL * 1000)
+  $('#embedded-content').click(() => {
+    if (stream) {
+      window.location.href = 'https://www.twitch.tv/hackquarantine'
+    }
+  })
 })
 
 function resizeIframes () {
@@ -59,12 +66,14 @@ function setEmbedVisibility (show) {
 }
 
 function showStream () {
+  stream = true
   $('#embedded-iframe').css('display', 'block')
   $('#embedded-schedule').css('display', 'none')
   resizeIframes()
 }
 
 function showSchedule () {
+  stream = false
   $('#embedded-iframe').css('display', 'none')
   $('#embedded-schedule').css('display', 'block')
   resizeIframes()
