@@ -46,8 +46,9 @@ This will guide you on how to record your screen so you can show off slides, and
 2. If you want to edit your workshop, there's a few different types of video editing software you can use (unless you're familiar):
    1. [OpenShot](https://www.openshot.org/) (Windows, macOS, Linux)
    2. iMovie (macOS only)
-3. Play the video back. If you don't know what program to use, we recommend [VLC Media Player](https://www.videolan.org/vlc/index.en-GB.html).
-4. For live streaming, insert your stream key as mentioned above and press `Start Recording`
+   3. Follow the instructions [here](https://www.youtube.com/watch?v=hf457tY10MA) to setup OBS to replay your video.
+   4. For live streaming, insert your stream key as mentioned above and press `Start Streaming`
+   5. Switch to your scene you setup in step 3, and your video should start automatically playing.
 
 ### Send us the prerecorded video (pre recorded only)
 
