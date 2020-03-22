@@ -56,3 +56,4 @@ This is the same as the previous option, but you won't be able to pause your vid
 1. Follow the same instructions as #2 up to part 2.
 2. Export your video `.mp4` 
 3. You will be provided with a upload url as mentioned above. Click it, select the file, and once uploaded you're done!
+4. If you have not pre-agreed that your content will be pre-recorded, please notify an organizer so that arrangements can be made to play your content during your assigned timeslot.
