@@ -62,7 +62,7 @@ We recommend that prior to the start of your workshop, you test your livestream 
 
 ### Send us the prerecorded video (pre recorded only)
 
-This is the same as the previous option, but you won't be able to pause your video. If you don't want to pause your video to take questions, this will be the easiest option.
+This is the same as the previous option, but you won't be able to pause your video. If you don't want to pause your video to take questions, this will be the easiest option. Please make sure that your content is uploaded at least 2 hours prior to your assigned timeslot, or we may not be able to play it.
 
 1. Follow the same instructions as #2 up to part 2.
 2. Export your video as an `.mp4` (else it won't work).
