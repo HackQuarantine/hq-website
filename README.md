@@ -9,6 +9,7 @@ Make sure to have ruby and bundle installed.
 ### Install
 ```bash
 bundle install
+git submodule update
 ```
 
 ### Run
