@@ -54,6 +54,6 @@ This will guide you on how to record your screen so you can show off slides, and
 This is the same as the previous option, but you won't be able to pause your video. If you don't want to pause your video to take questions, this will be the easiest option.
 
 1. Follow the same instructions as #2 up to part 2.
-2. Export your video `.mp4` 
+2. Export your video as an `.mp4` (else it won't work).
 3. You will be provided with a upload url as mentioned above. Click it, select the file, and once uploaded you're done!
 4. If you have not pre-agreed that your content will be pre-recorded, please notify an organizer so that arrangements can be made to play your content during your assigned timeslot.
