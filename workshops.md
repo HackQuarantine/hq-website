@@ -50,9 +50,19 @@ This will guide you on how to record your screen so you can show off slides, and
    4. For live streaming, insert your stream key as mentioned above and press `Start Streaming`
    5. Switch to your scene you setup in step 3, and your video should start automatically playing.
 
+### Testing your Livestream setup
+
+We recommend that prior to the start of your workshop, you test your livestream configuration is able to connect to the ingest server using the following guide:
+
+  1. Follow either of the two guides above to configure your streaming setup
+  2. Set your custom RTMP url to rtmp://geosmin.hack.productions/test
+  3. Press 'Start Streaming'
+  3. Go to http://geosmin.hack.productions
+  4. Confirm that the video and audio you are expecting to be streamed is replayed in your browser
+
 ### Send us the prerecorded video (pre recorded only)
 
-This is the same as the previous option, but you won't be able to pause your video. If you don't want to pause your video to take questions, this will be the easiest option.
+This is the same as the previous option, but you won't be able to pause your video. If you don't want to pause your video to take questions, this will be the easiest option. Please make sure that your content is uploaded at least 2 hours prior to your assigned timeslot, or we may not be able to play it.
 
 1. Follow the same instructions as #2 up to part 2.
 2. Export your video as an `.mp4` (else it won't work).
