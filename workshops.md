@@ -30,7 +30,7 @@ There's 3 ways to do your workshop. Pick which ever you feel comfortable doing!
 8. Press the `Start Streaming` button
 
 
-We will be sending you a Stream Key via Discord before the event. Make sure to give your Discord username to Karl. 
+We will be sending you a Stream Key and Upload URL via Discord before the event. Make sure to give your Discord username to Karl. 
 
 Example Discord username: `wrussell1999#6267`
 
@@ -55,4 +55,4 @@ This is the same as the previous option, but you won't be able to pause your vid
 
 1. Follow the same instructions as #2 up to part 2.
 2. Export your video `.mp4` 
-3. Upload your video to {INSERT URL HERE}
+3. You will be provided with a upload url as mentioned above. Click it, select the file, and once uploaded you're done!
