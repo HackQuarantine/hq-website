@@ -54,6 +54,11 @@ document.addEventListener('DOMContentLoaded', () => {
       } catch (e) {
         console.error('cannot parse event details/ find colour')
       }
+
+      if (info.event._instance.range.end < new Date()) {
+        // if the event is today but has finished, don't show it
+        return false
+      }
     }
   })
 
