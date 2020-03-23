@@ -11,7 +11,7 @@ styles:
 # Privacy Policy
 _Effective: March 23, 2020_
 
-Hack Quarantine is part of Hackathons UK which is a part of HackSoc Nottingham and the University of Nottingham Students’ Union. This privacy policy will explain how Hack Quarantine (“us”, “we”, “our”) uses the personal data we collect from you when you use hackquarantine.com, platform.hackquarantine.com, and discourse.hackquarantine.com (“our websites”) and our Discord server or Devpost (“our services”).
+Hack Quarantine is part of Hackathons UK Limited. This privacy policy will explain how Hack Quarantine (“us”, “we”, “our”) uses the personal data we collect from you when you use hackquarantine.com, platform.hackquarantine.com, and discourse.hackquarantine.com (“our websites”) and our Discord server or Devpost (“our services”).
 
 Topics:
 
@@ -117,7 +117,7 @@ If you make a request, we have one month to respond to you. If you would like to
 
 Or write to us: <br />
 The Data Protection Officer<br />
-Hackathons UK<br />
+Hackathons UK Limited<br />
 Suite 2202<br />
 109 Vernon House<br />
 Friar Lane<br />
@@ -165,7 +165,7 @@ Email us at: [gdpr@hackathons.org.uk](mailto:gdpr@hackathons.org.uk)
 
 Or write to us at:<br />
 The Data Protection Officer<br />
-Hackathons UK<br />
+Hackathons UK Limited<br />
 Suite 2202<br />
 109 Vernon House<br />
 Friar Lane<br />
