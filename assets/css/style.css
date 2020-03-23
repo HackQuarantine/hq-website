@@ -12,6 +12,12 @@ body {
     overflow-x: hidden;
 }
 
+#livestream {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
 #mlh-trust-badge {
     height: 0;
     position: absolute !important;
