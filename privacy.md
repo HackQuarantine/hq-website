@@ -101,17 +101,17 @@ If you no longer wish to be contacted for marketing purposes, please unsubscribe
 
 We would like to make sure you are fully aware of your data protection rights. Every user is entitled to the following:
 
-*The right to access -*  You have the right to request us for copies of your personal data. We may charge a small admin fee associated with the cost of labour for this service.
+**The right to access -**  You have the right to request us for copies of your personal data. We may charge a small admin fee associated with the cost of labour for this service.
 
-*The right to rectification -*  You have the right to request that we correct any information you believe is inaccurate. You also have the right to request us to complete the information you believe is incomplete.
+**The right to rectification -**  You have the right to request that we correct any information you believe is inaccurate. You also have the right to request us to complete the information you believe is incomplete.
 
-*The right to erasure -* You have the right to request that we erase your personal data, under certain conditions.
+**The right to erasure -** You have the right to request that we erase your personal data, under certain conditions.
 
-*The right to restrict processing -* You have the right to request that we restrict the processing of your personal data, under certain conditions.
+**The right to restrict processing -** You have the right to request that we restrict the processing of your personal data, under certain conditions.
 
-*The right to object to processing -* You have the right to object to our processing of your personal data, under certain conditions.
+**The right to object to processing -** You have the right to object to our processing of your personal data, under certain conditions.
 
-*The right to data portability -*  You have the right to request that we transfer the data that we have collected to another organisation, or directly to you, under certain conditions.
+**The right to data portability -**  You have the right to request that we transfer the data that we have collected to another organisation, or directly to you, under certain conditions.
 
 If you make a request, we have one month to respond to you. If you would like to exercise these rights, please contact us at our email: [gdpr@hackathons.org.uk](mailto:gdpr@hackathons.org.uk)
 
@@ -161,7 +161,7 @@ We keep this privacy policy under regular review and place any updates on this w
 
 If you have any questions about our privacy policy, the data that we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.
 
-Email us at: (gdpr@hackathons.org.uk)[mailto:gdpr@hackathons.org.uk]
+Email us at: [gdpr@hackathons.org.uk](mailto:gdpr@hackathons.org.uk)
 
 Or write to us at:<br />
 The Data Protection Officer<br />
@@ -171,7 +171,7 @@ Suite 2202<br />
 Friar Lane<br />
 Nottingham<br />
 NG1 6DQ<br />
-United Kingdo
+United Kingdom
 
 ## How to contact the appropriate authority
 Should you wish to report a complaint or if you feel that we have not addressed your concern in a satisfactory manner, you may contact the Information Commissioner’s Officer.
