@@ -12,6 +12,12 @@ body {
     overflow-x: hidden;
 }
 
+#livestream {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
 #mlh-trust-badge {
     height: 0;
     position: absolute !important;
@@ -253,6 +259,11 @@ h2 {
 
 .tracks h5 {
     text-align: center;
+}
+
+.track-powered-by {
+    text-align: center;
+    padding-top: 1em;
 }
 
 /*@media only screen and (max-width : 600px) {
