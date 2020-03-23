@@ -261,9 +261,16 @@ h2 {
     text-align: center;
 }
 
-.track-powered-by {
+p.track-powered-by {
+    color: orange;
+    font-weight: bold;
     text-align: center;
-    padding-top: 1em;
+    max-width: 50vw;
+    margin: 2em auto;
+}
+
+p.track-powered-by img {
+    margin-top: 1em;
 }
 
 /*@media only screen and (max-width : 600px) {
