@@ -67,6 +67,7 @@ function setEmbedVisibility (show) {
 
 function showStream () {
   stream = true
+  $('#embedded-iframe').attr('src', 'https://player.twitch.tv/?channel=hackquarantine&muted=1')
   $('#embedded-iframe').css('display', 'block')
   $('#embedded-schedule').css('display', 'none')
   resizeIframes()
@@ -74,6 +75,7 @@ function showStream () {
 
 function showSchedule () {
   stream = false
+  $('#embedded-iframe').removeAttr('src')
   $('#embedded-iframe').css('display', 'none')
   $('#embedded-schedule').css('display', 'block')
   resizeIframes()
