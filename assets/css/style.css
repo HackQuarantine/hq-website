@@ -255,6 +255,11 @@ h2 {
     text-align: center;
 }
 
+.track-powered-by {
+    text-align: center;
+    padding-top: 1em;
+}
+
 /*@media only screen and (max-width : 600px) {
 
 .hero .logo {
