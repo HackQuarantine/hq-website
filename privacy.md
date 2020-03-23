@@ -36,11 +36,11 @@ We collect the following data:
 
  - Personal identification information (name, email address, phone number, social media usernames)
  - What age group (13-17, or 18+) you fall into
- - What you academic institution (if applicable) you are a part of
+ - What academic institution (if applicable) you are a part of
 
 ## How do we collect your data?
 
-You directly provide us with most of the data we collect. We collect data process data when you:
+You directly provide us with most of the data we collect. We collect data when you:
 
  - When you register online on any of our websites or services
  - Voluntarily fill out public profile information on any of our websites
@@ -128,7 +128,7 @@ United Kingdom
 
 ## Cookies
 
-Cookies are text files placed on your computer to collect standard internet log information and visitor behavior information. When you visit our websites, we may collect information from you automatically through cookies or similar technology.
+Cookies are text files placed on your computer to collect standard internet log information and visitor behaviour information. When you visit our websites, we may collect information from you automatically through cookies or similar technology.
 
 For further information, visit (allaboutcookies.org)[https://allaboutcookies.org]
 
