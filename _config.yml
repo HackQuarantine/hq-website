@@ -16,6 +16,7 @@ defaults:
         facebook: https://www.facebook.com/HackQuarantine
         instagram: https://www.instagram.com/hackquarantine/
         linkedin: https://www.linkedin.com/company/hackquarantine/
+        devpost: https://hackquarantine.devpost.com/
         schedule: /schedule
         emails: 'https://cdn.forms-content.sg-form.com/2e1cc968-66fa-11ea-9912-5e37fcc2990c'
         donate: /donate
