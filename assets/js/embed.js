@@ -39,16 +39,8 @@ function displayStreamStatus (online, fullName) {
     const eventLive = eventName !== 'Online Hackathon!'
 
     if (eventLive) {
-      $('#embedded-status-text').text('LIVE - ')
-      $('#embedded-status-icon').css('color', 'red')
-      $('#embedded-title').text(eventName)
-
-      showStream()
+      showStream(eventName)
     } else {
-      $('#embedded-status-text').text('OFFLINE - ')
-      $('#embedded-status-icon').css('color', 'gray')
-      $('#embedded-title').text('Upcoming Events')
-
       showSchedule()
     }
   }
@@ -65,16 +57,26 @@ function setEmbedVisibility (show) {
   resizeIframes()
 }
 
-function showStream () {
-  stream = true
-  $('#embedded-iframe').attr('src', 'https://player.twitch.tv/?channel=hackquarantine&muted=1')
-  $('#embedded-iframe').css('display', 'block')
-  $('#embedded-schedule').css('display', 'none')
-  resizeIframes()
+function showStream (title = '') {
+  if (!stream) {
+    stream = true
+    $('#embedded-status-icon').css('color', 'red')
+    $('#embedded-status-text').text('LIVE - ')
+    $('#embedded-title').text(title)
+
+    $('#embedded-iframe').attr('src', 'https://player.twitch.tv/?channel=hackquarantine&muted=1')
+    $('#embedded-iframe').css('display', 'block')
+    $('#embedded-schedule').css('display', 'none')
+    resizeIframes()
+  }
 }
 
 function showSchedule () {
   stream = false
+  $('#embedded-status-icon').css('color', 'gray')
+  $('#embedded-status-text').text('Intermission - ')
+  $('#embedded-title').text('Upcoming Events')
+
   $('#embedded-iframe').removeAttr('src')
   $('#embedded-iframe').css('display', 'none')
   $('#embedded-schedule').css('display', 'block')
