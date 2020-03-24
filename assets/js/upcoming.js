@@ -65,7 +65,10 @@ document.addEventListener('DOMContentLoaded', () => {
   setVisibleRange()
   calendar.render()
 
-  setInterval(setVisibleRange, RANGE_UPDATE_INTERVAL * 1000)
+  setInterval(() => {
+    calendar.refetchEvents()
+    setVisibleRange()
+  }, RANGE_UPDATE_INTERVAL * 1000)
 })
 
 function setVisibleRange () {
