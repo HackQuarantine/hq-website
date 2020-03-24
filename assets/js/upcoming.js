@@ -3,7 +3,7 @@
 const CALENDAR_ID = 'hacksocnotts.co.uk_5m2l3o30k13frs9nd9dmh9rk8o@group.calendar.google.com'
 const CALENDAR_KEY = 'AIzaSyBzgsuQnfQ7g_zMSsmll7XosF5ZxpJZaWk'
 
-const END_DATE = '2020-04-12'
+const END_DATE = '2020-04-13'
 const RANGE_UPDATE_INTERVAL = 60 // sec
 
 const DATE_24HR_FORMAT = {
