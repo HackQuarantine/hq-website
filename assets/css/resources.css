@@ -5,3 +5,8 @@ body {
 p {
   font-family: unset;
 }
+
+h1, h2, h3, h4, h5 {
+    font-family: unset;
+    margin: 2rem 0 0.5rem 0;
+}
