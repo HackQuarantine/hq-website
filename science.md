@@ -1,5 +1,5 @@
 ---
-title: Science Resources
+title: Science
 layout: plain
 styles:
   - url: https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/darkly/bootstrap.min.css
