@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     defaultView: 'list',
     header: false,
     height: () => { return window.innerHeight },
+    maxTime: '23:59:59',
     defaultDate: new Date(),
     googleCalendarApiKey: CALENDAR_KEY,
     events: {

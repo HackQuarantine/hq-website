@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     buttonText: { dayGridMonth: 'Month', timeGridWeek: 'Week', list: 'All', today: 'Today' },
     firstDay: 1,
     height: 700,
+    maxTime: '23:59:59',
     googleCalendarApiKey: CALENDAR_KEY,
     events: {
       googleCalendarId: CALENDAR_ID,
