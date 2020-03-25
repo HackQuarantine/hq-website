@@ -8,6 +8,10 @@ const SMALL_DEVICE_WIDTH = 768
 const SMALL_DEVICE_VIEW = 'listYear'
 const LARGE_DEVICE_VIEW = 'listYear'
 
+const STREAMED_TYPES = ['workshop', 'side-event', 'ceremony']
+const STREAM_LINK = `<hr>This event will be livestreamed on our <a href="https://www.twitch.tv/hackquarantine">Twitch</a> channel`
+const VOD_LINK = `<hr>\This event has finished. Find recorded events on our <a href="https://hackquarantine.com/youtube">Youtube</a> channel`
+
 const DATE_24HR_FORMAT = {
   hour: '2-digit',
   minute: '2-digit',
@@ -129,7 +133,8 @@ function displayEvent (info) {
   } catch (e) {
     console.error('cannot parse event details')
   }
-  console.log(details)
+
+  const pastEvent = info.el.classList.contains("past-event")
 
   if (details.organiser === undefined) {
     details.organiser = '(no organiser specifed)'
@@ -146,6 +151,16 @@ function displayEvent (info) {
   $('#event-person').text(details.organiser)
   $('#event-desc').text(details.description)
   $('#event-type').text(details.type)
+
+  if (STREAMED_TYPES.includes(details.type)) {
+    if (pastEvent) {
+      $('#event-catchup').html(VOD_LINK)
+    } else {
+      $('#event-catchup').html(STREAM_LINK)
+    }
+  } else {
+    $('#event-catchup').empty()
+  }
 
   $('#event-modal').modal('show')
 }
