@@ -12,13 +12,13 @@ styles:
 
 Here you can find useful info, videos, literature, and the like! It’ll also have some prompts/inspiration to help you get an idea of what you’d like to work on over the course of the hackathon!
 
-“ We are in an unprecedented situation at the moment The COVID-19 👑🦠 crisis is posing tough problems to vast swathes of our society. This is where you come in 😱. Unprecedented situations call for unprecedented answers - and Hack<Quarantine/> is just that! With thousands of you coming together to do research into 👩‍🔬, or build solutions towards the problems 👩‍💻 that COVID-19 has brought, we can work collaboratively to make a difference, and try to do our part in these troubling times. And don’t get us wrong - this is no ordinary hackathon - you’re free to work on almost anything (be that science, maths, or tech) within our four overarching themes. Not only are the whole team here to help you with this - your fellow participants will be there for you along the way 💖 ”
+“ We are in an unprecedented situation at the moment The COVID-19 crisis is posing tough problems to vast swathes of our society. This is where you come in. Unprecedented situations call for unprecedented answers - and Hack Quarantine is just that! With thousands of you coming together to do research into, or build solutions towards the problems that COVID-19 has brought, we can work collaboratively to make a difference, and try to do our part in these troubling times. And don’t get us wrong - this is no ordinary hackathon - you’re free to work on almost anything (be that science, maths, or tech) within our four overarching themes. Not only are the whole team here to help you with this - your fellow participants will be there for you along the way ”
 
 ~~Do you have what it takes to save humanity?~~
 
 (This isn’t Pandemic ☣️)
 
-Now we’re going to provide some literature, videos, data sources, and inspiration for your hack. We’ll do our best to keep y’all up to date over the coming weeks too! <3
+Now we’re going to provide some literature, videos, data sources, and inspiration for your hack. We’ll do our best to keep y’all up to date over the coming weeks too! 💖
 
 ## Literature 📚
 
@@ -42,7 +42,9 @@ Now we’re going to provide some literature, videos, data sources, and inspirat
 
 
 
-Struggling for what to do or make? We’ve got your back 💖 Keep reading for some ideas that might just get you started!
+Struggling for what to do or make? We’ve got your back 💖 
+
+Keep reading for some ideas that might just get you started!
 
 ## Inspiration 
 
