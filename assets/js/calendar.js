@@ -76,6 +76,14 @@ document.addEventListener('DOMContentLoaded', () => {
       } catch (e) {
         console.error(`invalid JSON in '${info.event._def.title}' on ${info.event._instance.range.start}:\n${info.event._def.extendedProps.description}`)
       }
+
+      const endTime = info.event._instance.range.end
+      const endUnix = endTime.getTime() + (1000 * 60 * endTime.getTimezoneOffset())
+      const nowUnix = (new Date()).getTime()
+      if (endUnix < nowUnix) {
+        // if the event is in the past
+        info.el.classList.add(`past-event`)
+      }
     }
   })
   document.getElementById('timezone').innerHTML = `All times are in your local timezone! (${Intl.DateTimeFormat().resolvedOptions().timeZone})`
