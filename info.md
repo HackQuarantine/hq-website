@@ -12,7 +12,33 @@ td {
     border: 1px solid white;
     padding: 0.5em;
 }
+
+.powered-by {
+    margin: 0.2em auto 2em auto;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.powered-by b {
+    font-size: 1em;
+    margin-right: 1.2vw
+}
+
+.powered-by img {
+    height: 12vw;
+    max-height: 8em;
+}
 </style>
+
+
+<div class="d-flex justify-content-center">
+    <b>Powered By</b>
+</div>
+<div class="powered-by">
+    <a href="https://github.com/"><img style="padding-bottom: 4px" src="/assets/img/powered_by/github.png" alt="GitHub"/></a><b>and</b>
+    <a href="https://hack.athon.uk"><img src="/assets/img/powered_by/logo.svg" alt="HackathonsUK"/></a>
+</div>
 
 Welcome to Hack Quarantine! We know there’s a ton of important information that you’re going to need over the next few weeks - but don’t worry! We’ve put it all in here. Just bookmark this page and check back whenever you need something. As things change, we’ll keep this doc up to date.
 
