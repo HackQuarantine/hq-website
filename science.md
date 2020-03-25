@@ -22,7 +22,7 @@ Now we’re going to provide some literature, videos, data sources, and inspirat
 
 ## Literature 📚
 
-* [WHO Global Research on COVID-19 Resources (points to many others](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov)
+* [WHO Global Research on COVID-19 Resources (points to many others)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov)
 * [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/)
 * [COVID-19 Open Research Data Set](https://pages.semanticscholar.org/coronavirus-research)
 
@@ -34,7 +34,7 @@ Now we’re going to provide some literature, videos, data sources, and inspirat
   
 ## Data 💾
 
-* [COVID-19 API](covid19api.com) 
+* [COVID-19 API](https://covid19api.com) 
 * [CORD-19 Research Challenge](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)
 * [COVID-19 Data Repository (GitHub)](https://github.com/CSSEGISandData/COVID-19)
 * [COVID-19 Data Resources (Tableau)](https://www.tableau.com/covid-19-coronavirus-data-resources)
