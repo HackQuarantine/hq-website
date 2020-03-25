@@ -181,3 +181,4 @@ If you’re interested in giving a talk or a workshop, you can register it at ht
 ## Science Resources
 
 Head over to [this document](https://docs.google.com/document/d/1Y70ObSZCyB308QNbFXelNbl6GAWGfghWA_qJp96awOA/edit) to find out useful information, videos, literature, and the like! It’ll also have some prompts and inspiration to help you get an idea of what you’d like to work on over the course of the hackathon!
+
