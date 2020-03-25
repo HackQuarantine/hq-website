@@ -58,12 +58,12 @@ function setEmbedVisibility (show) {
 }
 
 function showStream (title = '') {
+  $('#embedded-status-icon').css('color', 'red')
+  $('#embedded-status-text').text('LIVE - ')
+  $('#embedded-title').text(title)
+
   if (!stream) {
     stream = true
-    $('#embedded-status-icon').css('color', 'red')
-    $('#embedded-status-text').text('LIVE - ')
-    $('#embedded-title').text(title)
-
     $('#embedded-iframe').attr('src', 'https://player.twitch.tv/?channel=hackquarantine&muted=1')
     $('#embedded-iframe').css('display', 'block')
     $('#embedded-schedule').css('display', 'none')
