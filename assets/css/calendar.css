@@ -2,6 +2,10 @@ body {
   background-color: #0e1428;
 }
 
+.past-event {
+    opacity: 0.5 !important;
+}
+
 #colour-key {
   display: flex;
   justify-content: center;

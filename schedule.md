@@ -60,6 +60,7 @@ scripts:
         <div><i class="material-icons">person</i> Organiser - <b id="event-person"></b></div>
         <hr>
         <p id="event-desc"></p>
+        <p id="event-catchup"></p>
       </div>
     </div>
   </div>
