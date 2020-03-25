@@ -11,6 +11,7 @@ const LARGE_DEVICE_VIEW = 'listYear'
 const STREAMED_TYPES = ['workshop', 'side-event', 'ceremony']
 const STREAM_LINK = `<hr>This event will be livestreamed on our <a href="https://www.twitch.tv/hackquarantine">Twitch</a> channel`
 const VOD_LINK = `<hr>\This event has finished. Find recorded events on our <a href="https://hackquarantine.com/youtube">Youtube</a> channel`
+const DISCORD_LINK = `<hr>\This event will be held on our <a href="https://discord.hackquarantine.com/">Discord</a> server`
 
 const DATE_24HR_FORMAT = {
   hour: '2-digit',
@@ -158,6 +159,8 @@ function displayEvent (info) {
     } else {
       $('#event-catchup').html(STREAM_LINK)
     }
+  } else if (details.type === 'checkpoint') {
+    $('#event-catchup').html(DISCORD_LINK)
   } else {
     $('#event-catchup').empty()
   }
