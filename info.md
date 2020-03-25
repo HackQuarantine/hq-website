@@ -7,6 +7,13 @@ styles:
   - url: /assets/css/resources.css
 ---
 
+<style>
+td {
+    border: 1px solid white;
+    padding: 0.5em;
+}
+</style>
+
 Welcome to Hack Quarantine! We know there’s a ton of important information that you’re going to need over the next few weeks - but don’t worry! We’ve put it all in here. Just bookmark this page and check back whenever you need something. As things change, we’ll keep this doc up to date.
 
 ## Quick Links
@@ -18,27 +25,49 @@ Welcome to Hack Quarantine! We know there’s a ton of important information tha
   </tr>
   <tr>
     <td><a href="https://hackquarantine.devpost.com">Devpost</a></td>
-    <td><a href="https://discourse.hackquarantine.com">Discourse (Platform)</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://hackquarantine.com/schedule">Schedule</a></td>
     <td><a href="https://www.twitch.tv/hackquarantine">Twitch Channel</a></td>
   </tr>
   <tr>
+    <td><a href="https://hackquarantine.com/schedule">Schedule</a></td>
     <td><a href="http://workshops.hackquarantine.com">Submit a Workshop</a></td>
+  </tr>
+  <tr>
+  <td><a href="https://mlh.io/code-of-conduct">MLH Code of Conduct</a></td>
     <td><a href="https://hackquarantine.com/workshops">Information for Workshop Hosts</a></td>
   </tr>
   <tr>
-    <td><a href="https://mlh.io/code-of-conduct">MLH Incidents</a></td>
-    <td></td>
+    <td><a href="https://discourse.hackquarantine.com">Discourse (Platform)</a></td>
+    <td><a href="https://scratchcard.hackquarantine.com/">Tools and technologies</a></td>
   </tr>
 </table>
+
+## Jump to Section
+
+* [Quick Links](#quick-links)
+* [Jump to Section](#jump-to-section)
+* [What is Hack Quarantine?](#what-is-hack-quarantine)
+    * [What is a hackathon / virtual hackathon?](#what-is-a-hackathon--virtual-hackathon)
+* [Tracks](#tracks)
+    * [Supporting Quarantined or At Risk People](#supporting-quarantined-or-at-risk-people)
+    * [Tech and Health](#tech-and-health)
+    * [Remote Working](#remote-working)
+    * [Improving Awareness and Behaviour](#improving-awareness-and-behaviour)
+* [Rules](#rules)
+    * [The Code of Conduct](#the-code-of-conduct)
+    * [The Competition Rules](#the-competition-rules)
+* [Discord](#discord)
+* [Mentorship](#mentorship)
+* [Teambuilding](#teambuilding)
+* [Donations](#donations)
+* [We're providing you with some awesome tools](#were-providing-you-with-some-awesome-tools)
+* [Talks & Workshops](#talks--workshops)
+* [Science Resources](#science-resources)
 
 ## What is Hack Quarantine?
 
 Hack Quarantine is a global, virtual hackathon dedicated to trying to solve problems related to COVID-19, with hacks aiming to fix everything from healthcare issues, to trying to improve people’s ability to work remotely.
 
-## What is a hackathon / virtual hackathon?
+### What is a hackathon / virtual hackathon?
 
 A hackathon is an invention marathon where software developers, innovators, designers, creators and entrepreneurs join forces to solve problems. In a short time, small teams will build something amazing to conquer challenges.
 
@@ -104,24 +133,25 @@ A good team building post should include:
 * How to reach you - discord ID, social media, etc
 * Your time availability and whether or not you want to work asynchronously
 
+## Donations
+We’re fundraising for the World Health Organisation! Any excess sponsorship we raise will be donated, in addition to anything donated to our fundraiser! You can donate at https://donate.hackquarantine.com.
+
+If you would like to learn more about the World Health Organization COVID 19 Response Fund, check out: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate
+
+## We’re providing you with some awesome tools
+You can claim all of these and more through Scratchcard! Login with the same account you use for Platform/Discourse. Scratchcard can be accessed through https://scratchcard.hackquarantine.com
+
+* Free [Algolia](https://www.algolia.com/) pro plan for not-for-profit apps/websites related to COVID-19
+* Free .TECH, .ONLINE, and .SPACE Domain names with [Domain.com](https://www.domain.com/)
+* [Radar.io](https://radar.io/) API Premium Features for all students
+* [GitKraken](https://www.gitkraken.com/) Pro Licenses for attendees
+
 ## Talks & Workshops
 
 We’ve got an awesome set of talks and workshops for you over the next three weeks! From intro workshops on technologies, to serverside chats with the founders of tech companies, there’s something for everyone! We’ll be broadcasting talks across all timezones at https://twitch.tv/hackquarantine, and upload as many as we can to our YouTube channel. Check out our schedule at https://hackquarantine.com/schedule to see if there’s any you fancy - the later weeks will fill up as the hackathon goes on!
 
+If you’re interested in giving a talk or a workshop, you can register it at http://workshops.hackquarantine.com/
+
 ## Science Resources
 
 Head over to [this document](https://docs.google.com/document/d/1Y70ObSZCyB308QNbFXelNbl6GAWGfghWA_qJp96awOA/edit) to find out useful information, videos, literature, and the like! It’ll also have some prompts and inspiration to help you get an idea of what you’d like to work on over the course of the hackathon!
-
-## Tools we're providing
-
-You can claim all of these and more through Scratchcard! Login with the same account you use for Discourse.
-* Free Algolia pro plan for not-for-profit apps/websites related to COVID-19
-* Free .TECH, .ONLINE, and .SPACE Domain names with Domain.com
-* Radar.io API Premium Features for all students
-* GitKraken Pro Licenses for attendees
-
-## Donations
-
-We’re fundraising for the World Health Organisation! Any excess sponsorship we raise will be donated, in addition to anything donated to our fundraiser! You can donate at https://donate.hackquarantine.com.
-
-If you would like to learn more about the World Health Organization COVID 19 Response Fund, check out https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate
