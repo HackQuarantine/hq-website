@@ -139,19 +139,19 @@ In the interest of fairness, we have a few rules that must be followed **if you 
 
 ## Discord
 
-Discord is our primary form of communication and we highly recommend joining! You can do so at https://discord.hackquarantine.com - come meet our friendly community, connect with mentors and chat with our team!
+Discord is our primary form of communication and we highly recommend joining! You can join [here!](https://discord.hackquarantine.com) - come meet our friendly community, connect with mentors and chat with our team!
 
 ## Mentorship
 
 We want you to be able to make the most of Hack Quarantine, and so we’re giving you as much access to mentors as we possibly can!
 
-If you need help, just post in #get-mentorship on Discord and tag the mentor for the technology you need a hand with, eg: @Mentor-PHP. All online mentors for that technology will get an alert.
+If you need help, just post in #get-mentorship on Discord and tag the mentor for the technology you need a hand with, eg: `@Mentor-PHP`. All online mentors for that technology will get an alert.
 
 If you want to help mentor, you can opt-in to mentoring in #become-a-mentor on Discord!
 
 ## Teambuilding
 
-Team building will be conducted on the [Hack Quarantine discourse forum](https://discourse.hackquarantine.com). There are two forum sections: “team recruitment” and “looking for a team”. If you already have an idea or a team partially formed, you can post on the team recruitment forum. If you are an individual looking for a team, post on the looking for a team forum. It is important to check both forums however.
+Team building will be conducted on the [Hack Quarantine Discourse forum](https://discourse.hackquarantine.com). There are two forum sections: “team recruitment” and “looking for a team”. If you already have an idea or a team partially formed, you can post on the team recruitment forum. If you are an individual looking for a team, post on the looking for a team forum. It is important to check both forums however.
 
 A good team building post should include:
 * Your name, location, time zone, and language
@@ -160,12 +160,12 @@ A good team building post should include:
 * Your time availability and whether or not you want to work asynchronously
 
 ## Donations
-We’re fundraising for the World Health Organisation! Any excess sponsorship we raise will be donated, in addition to anything donated to our fundraiser! You can donate at https://donate.hackquarantine.com.
+We’re fundraising for the World Health Organisation! Any excess sponsorship we raise will be donated, in addition to anything donated to our fundraiser! [Donate here](https://donate.hackquarantine.com.).
 
-If you would like to learn more about the World Health Organization COVID 19 Response Fund, check out: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate
+If you would like to learn more about the World Health Organization COVID 19 Response Fund, You can learn more about the World Health Organisation COVID-19 Response Fund [here](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate).
 
 ## We’re providing you with some awesome tools
-You can claim all of these and more through Scratchcard! Login with the same account you use for Platform/Discourse. Scratchcard can be accessed through https://scratchcard.hackquarantine.com
+You can claim all of these and more through [Scratchcard](https://scratchcard.hackquarantine.com)! Login with the same account you use for [Platform/Discourse](https://discourse.hackquarantine.com).
 
 * Free [Algolia](https://www.algolia.com/) pro plan for not-for-profit apps/websites related to COVID-19
 * Free .TECH, .ONLINE, and .SPACE Domain names with [Domain.com](https://www.domain.com/)
@@ -174,9 +174,9 @@ You can claim all of these and more through Scratchcard! Login with the same acc
 
 ## Talks & Workshops
 
-We’ve got an awesome set of talks and workshops for you over the next three weeks! From intro workshops on technologies, to serverside chats with the founders of tech companies, there’s something for everyone! We’ll be broadcasting talks across all timezones at https://twitch.tv/hackquarantine, and upload as many as we can to our YouTube channel. Check out our schedule at https://hackquarantine.com/schedule to see if there’s any you fancy - the later weeks will fill up as the hackathon goes on!
+We’ve got an awesome set of talks and workshops for you over the next three weeks! From intro workshops on technologies, to serverside chats with the founders of tech companies, there’s something for everyone! We’ll be broadcasting talks across all timezones on [Twitch.TV](https://twitch.tv/hackquarantine), and upload as many as we can to our [YouTube](https://hackquarantine.com/youtube) channel. Check out our schedule at https://hackquarantine.com/schedule to see if there’s any you fancy - the later weeks will fill up as the hackathon goes on!
 
-If you’re interested in giving a talk or a workshop, you can register it at http://workshops.hackquarantine.com/
+If you’re interested in giving a talk or a workshop, you can register [here](http://workshops.hackquarantine.com/).
 
 ## Science Resources
 
