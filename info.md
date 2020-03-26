@@ -139,7 +139,7 @@ In the interest of fairness, we have a few rules that must be followed **if you 
 
 ## Discord
 
-Discord is our primary form of communication and we highly recommend joining! You can join [here!](discord.hackquarantine.com) - come meet our friendly community, connect with mentors and chat with our team!
+Discord is our primary form of communication and we highly recommend joining! You can join [here!](https://discord.hackquarantine.com) - come meet our friendly community, connect with mentors and chat with our team!
 
 ## Mentorship
 
@@ -165,7 +165,7 @@ We’re fundraising for the World Health Organisation! Any excess sponsorship we
 If you would like to learn more about the World Health Organization COVID 19 Response Fund, You can learn more about the World Health Organisation COVID-19 Response Fund [here](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate).
 
 ## We’re providing you with some awesome tools
-You can claim all of these and more through [Scratchcard](https://scratchcard.hackquarantine.com)! Login with the same account you use for [Platform/Discourse](discourse.hackquarantine.com).
+You can claim all of these and more through [Scratchcard](https://scratchcard.hackquarantine.com)! Login with the same account you use for [Platform/Discourse](https://discourse.hackquarantine.com).
 
 * Free [Algolia](https://www.algolia.com/) pro plan for not-for-profit apps/websites related to COVID-19
 * Free .TECH, .ONLINE, and .SPACE Domain names with [Domain.com](https://www.domain.com/)
