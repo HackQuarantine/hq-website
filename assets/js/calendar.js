@@ -8,7 +8,7 @@ const SMALL_DEVICE_WIDTH = 768
 const SMALL_DEVICE_VIEW = 'listYear'
 const LARGE_DEVICE_VIEW = 'listYear'
 
-const STREAMED_TYPES = ['workshop', 'side-event', 'ceremony']
+const STREAMED_TYPES = ['workshop', 'side-event', 'ceremony', 'talk']
 const STREAM_LINK = `<hr>This event will be livestreamed on our <a href="https://www.twitch.tv/hackquarantine">Twitch</a> channel`
 const VOD_LINK = `<hr>\This event has finished. Find recorded events on our <a href="https://hackquarantine.com/youtube">Youtube</a> channel`
 const DISCORD_LINK = `<hr>\This event will be held on our <a href="https://discord.hackquarantine.com/">Discord</a> server`

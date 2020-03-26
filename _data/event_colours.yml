@@ -10,3 +10,6 @@ checkpoint:
 side-event:
   name: Side Events
   colour: "#5c6d6d"
+talk:
+  name: Talks
+  colour: "#260c1c"
