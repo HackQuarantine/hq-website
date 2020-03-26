@@ -61,7 +61,7 @@ This will guide you on how to record your screen so you can show off slides, and
 
 ### 3. Pre-recorded
 
-If you don't want to pause your video to take questions, this will be the easiest option. Please make sure that your content is uploaded at minimum 1 day prior to your assigned timeslot, or we may not be able to play it.
+If you don't want to pause your video to take questions, this will be the easiest option. Please make sure that your content is uploaded at minimum 1 hour prior to your assigned timeslot, or we may not be able to play it.
 
 1. Follow the same instructions as #2 up to part 2.
 2. Export your video as an `.mp4` (else it won't work).
@@ -81,7 +81,7 @@ If you are livestreaming your workshop (options 1 & 2), you will need to configu
 
 We recommend that prior to the start of your workshop, you test your livestream configuration is able to connect to the ingest server using the following guide:
 
-NOTE: your stream key is only valid 1 hour before, during and 1 hour after your workshop
+NOTE: your stream key is only valid *1 hour before*, during and *1 hour after* your workshop
 
   1. Follow either of the two guides above to configure your streaming setup
   2. Set your custom RTMP url to rtmp://geosmin.hack.productions/test
