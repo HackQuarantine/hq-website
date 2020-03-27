@@ -6,7 +6,7 @@ workshop:
   colour: "#2a4642"
 partner-workshop:
   name: Partner Workshops
-  colour: "#2a4642"
+  colour: "#662c41"
 checkpoint:
   name: Checkpoints
   colour: "#886600"
