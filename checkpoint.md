@@ -12,6 +12,8 @@ styles:
 
 There are 3 different checkpoints, for each region (EU, NA, and APAC) so that everyone can get involved!
 
+Have a look at our [schedule](/schedule) to find out when the next Checkpoint is!
+
 Everyone will join a [Discord](https://discord.hackquarantine.com) voice channel, with each team getting 3 minutes to show off the current state of their project.
 
 Don't worry if you haven't done much, or if it doesn't work! It's a perfect opportunity to get some good insight from other hackers, and get help from others too!
