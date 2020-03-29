@@ -86,5 +86,5 @@ NOTE: your stream key is only valid *1 hour before*, during and *1 hour after* y
   1. Follow either of the two guides above to configure your streaming setup
   2. Set your custom RTMP url to rtmp://geosmin.hack.productions/test
   3. Press 'Start Streaming'
-  3. Go to http://geosmin.hack.productions
+  3. Go to https://geosmin.hack.productions/test
   4. Confirm that the video and audio you are expecting to be streamed is replayed in your browser
