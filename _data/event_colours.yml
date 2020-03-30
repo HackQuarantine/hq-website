@@ -13,9 +13,9 @@ checkpoint:
 side-event: &side-event
   name: Side Events
   colour: "#5c6d6d"
-side-event-not-streamed:
-  name:
-  colour: ""
 talk:
   name: Talks
   colour: "#260c1c"
+side-event-not-streamed:
+  name:
+  colour: ""
