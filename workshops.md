@@ -35,8 +35,9 @@ It can also record the content of your screen to a video file, and we recommend 
 4. Add a Display Capture or Window Capture source
 5. Add an Audio Input Capture source for microphone
 6. Optionally: if you’re on a Mac, follow [this guide](https://obsproject.com/forum/resources/os-x-capture-audio-with-ishowu-audio-capture.505/) to capture system audio.
-7. Open OBS settings to add the `Server` and `Stream Key` (see below)
-8. Press the `Start Streaming` button
+7. Use the OBS Auto-Configuration Wizard to find your ideal stream settings for your computer. It's under Tools->Auto-Configuration Wizard. Please use the test endpoint for setting this up. (See below!)
+8. Open OBS settings to add the `Server` and `Stream Key` (see below)
+9. Press the `Start Streaming` button
 
 
 We will be sending you a Stream Key and Upload URL via Discord before the event. Make sure to give your Discord username to Karl.
@@ -86,5 +87,10 @@ NOTE: your stream key is only valid *1 hour before*, during and *1 hour after* y
   1. Follow either of the two guides above to configure your streaming setup
   2. Set your custom RTMP url to rtmp://geosmin.hack.productions/test
   3. Press 'Start Streaming'
-  3. Go to http://geosmin.hack.productions
+  3. Go to https://geosmin.hack.productions/test
   4. Confirm that the video and audio you are expecting to be streamed is replayed in your browser
+
+
+This is also a good time to figure out your ideal streaming configuration with the OBS Auto-Configuration Wizard.
+
+If you are on a slow connection, please lower your resolution and bitrate! Recording locally will also help us get a high quality upload for YouTube!
