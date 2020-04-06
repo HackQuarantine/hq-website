@@ -42,6 +42,8 @@ It can also record the content of your screen to a video file, and we recommend 
 
 We will be sending you a Stream Key and Upload URL via Discord before the event. Make sure to give your Discord username to Karl.
 
+Please start streaming at least **10 minutes** before your workshop! This gives us a chance to start the recording properly and make sure everything is working. We will put your stream live at exactly the start of your workshop slow. E.g. If the slot is 17:00 UTC, your feed will go live at exactly 17:00 UTC to the second. Make sure to have a clock (phone apps are good) to know when to start!
+
 Example Discord username: `wrussell1999#6267`
 
 <img src="assets/img/workshops/obs_settings.png" height="400">
@@ -87,9 +89,10 @@ NOTE: your stream key is only valid *1 hour before*, during and *1 hour after* y
   1. Follow either of the two guides above to configure your streaming setup
   2. Set your custom RTMP url to rtmp://geosmin.hack.productions/test
   3. Press 'Start Streaming'
-  3. Go to https://geosmin.hack.productions/test
+  3. Go to [https://geosmin.hack.productions/test](https://geosmin.hack.productions/test)
   4. Confirm that the video and audio you are expecting to be streamed is replayed in your browser
 
+As mentioned above, you'll only be able to test your stream *1 hour* before your workshop slot.
 
 This is also a good time to figure out your ideal streaming configuration with the OBS Auto-Configuration Wizard.
 
