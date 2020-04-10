@@ -15,6 +15,8 @@ Here's a [video](https://www.youtube.com/watch?v=TkuU6DjAqeQ) explaining how to 
 
 Try and include as much detail as possible, as this will help our judges understand your project! Include photos and other resources that will help us. We won't have time to download them and run them so **pictures** that show them working will help show off your project. If it's difficult to demo your project, try and simulate it or show what it could achieve if used in the correct environment. 
 
+We’re also letting you submit video demos for our live streamed Demofest, but don’t worry - if you don’t want to submit a video, it won’t count against your chances when being judged!
+
 ### Judging Criteria
 
 This will be the criteria that we will be using when we're going through the projects. Try and write about each one of these points in your [Devpost](https://hackquarantine.devpost.com) submission!
