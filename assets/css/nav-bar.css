@@ -45,20 +45,30 @@
     margin: 0;
     display: inline-block;
     list-style: none;
-    padding-top: 1.2rem;
+    padding-top: 1.3rem;
 }
 
 .nav-content nav ul li a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: white;
     margin: 0;
+    font-stretch: condensed;
 }
 
 .nav-content nav ul .separator {
-    width: 20px;
+    margin: 2px 10px -4px 10px;
+    width: 0;
+    height: 20px;
+    border: 1px solid white;
     user-select: none;
-    opacity: 0;
+    opacity: 0.2;
+    text-align: center;
+    color: white;
+}
+
+.nav-content nav ul .separator:nth-of-type(1) {
+    display: none;
 }
 
 @media (min-width: 768px) {
@@ -91,5 +101,9 @@
     .nav-content nav ul li {
         display: block;
         margin-bottom: 10px;
+    }
+
+    .nav-content nav ul .separator {
+        display: none;
     }
 }
