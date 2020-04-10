@@ -55,7 +55,7 @@ Welcome to Hack Quarantine! We know there’s a ton of important information tha
   </tr>
   <tr>
     <td><a href="https://hackquarantine.com/schedule">Schedule</a></td>
-    <td><a href="http://workshops.hackquarantine.com">Submit a Workshop</a></td>
+    <td><a href="http://hackquarantine.com/sunmissions">Submit a Project</a></td>
   </tr>
   <tr>
   <td><a href="https://mlh.io/code-of-conduct">MLH Code of Conduct</a></td>
