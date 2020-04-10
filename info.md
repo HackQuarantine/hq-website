@@ -55,7 +55,7 @@ Welcome to Hack Quarantine! We know there’s a ton of important information tha
   </tr>
   <tr>
     <td><a href="https://hackquarantine.com/schedule">Schedule</a></td>
-    <td><a href="http://workshops.hackquarantine.com">Submit a Workshop</a></td>
+    <td><a href="http://hackquarantine.com/submissions">Submit a Project</a></td>
   </tr>
   <tr>
   <td><a href="https://mlh.io/code-of-conduct">MLH Code of Conduct</a></td>
@@ -69,25 +69,25 @@ Welcome to Hack Quarantine! We know there’s a ton of important information tha
 
 ## Jump to Section
 
-* [Quick Links](#quick-links)
-* [Jump to Section](#jump-to-section)
-* [What is Hack Quarantine?](#what-is-hack-quarantine)
-    * [What is a hackathon / virtual hackathon?](#what-is-a-hackathon--virtual-hackathon)
-* [Tracks](#tracks)
-    * [Supporting Quarantined or At Risk People](#supporting-quarantined-or-at-risk-people)
-    * [Tech and Health](#tech-and-health)
-    * [Remote Working](#remote-working)
-    * [Improving Awareness and Behaviour](#improving-awareness-and-behaviour)
-* [Rules](#rules)
-    * [The Code of Conduct](#the-code-of-conduct)
-    * [The Competition Rules](#the-competition-rules)
-* [Discord](#discord)
-* [Mentorship](#mentorship)
-* [Teambuilding](#teambuilding)
-* [Donations](#donations)
-* [We're providing you with some awesome tools](#were-providing-you-with-some-awesome-tools)
-* [Talks & Workshops](#talks--workshops)
-* [Science Resources](#science-resources)
+- [Quick Links](#quick-links)
+- [Jump to Section](#jump-to-section)
+- [What is Hack Quarantine?](#what-is-hack-quarantine)
+  - [What is a hackathon / virtual hackathon?](#what-is-a-hackathon--virtual-hackathon)
+- [Tracks](#tracks)
+  - [Supporting Quarantined or At Risk People](#supporting-quarantined-or-at-risk-people)
+  - [Tech and Health](#tech-and-health)
+  - [Remote Working](#remote-working)
+  - [Improving Awareness and Behaviour](#improving-awareness-and-behaviour)
+- [Rules](#rules)
+  - [The Code of Conduct](#the-code-of-conduct)
+  - [The Competition Rules](#the-competition-rules)
+- [Discord](#discord)
+- [Mentorship](#mentorship)
+- [Teambuilding](#teambuilding)
+- [Donations](#donations)
+- [We’re providing you with some awesome tools](#were-providing-you-with-some-awesome-tools)
+- [Talks & Workshops](#talks--workshops)
+- [Science Resources](#science-resources)
 
 ## What is Hack Quarantine?
 
