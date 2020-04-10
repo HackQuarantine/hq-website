@@ -13,7 +13,7 @@ For people who do want to submit for prizes, you can do so on [Devpost](https://
 
 Here's a [video](https://www.youtube.com/watch?v=TkuU6DjAqeQ) explaining how to submit a project to [Devpost](https://hackquarantine.devpost.com).
 
-Try and include as much detail as possible, as this will help our judges understand your project! Include photos and other resources that will help us. We won't have time to download them and run them so **videos** and **pictures** that show them working will help show off your project. If it's difficult to demo your project, try and simulate it or show what it could achieve if used in the correct environment. 
+Try and include as much detail as possible, as this will help our judges understand your project! Include photos and other resources that will help us. We won't have time to download them and run them so **pictures** that show them working will help show off your project. If it's difficult to demo your project, try and simulate it or show what it could achieve if used in the correct environment. 
 
 ### Judging Criteria
 
