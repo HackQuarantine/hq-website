@@ -39,7 +39,9 @@ scripts:
   <b>Event Types</b>
   <div id="colour-key">
     {% for event in site.data.event_colours %}
+    {% unless event[1].hidden %}
       <div class="type-{{ event[0] }}">{{ event[1].name }}</div>
+    {% endunless %}
     {% endfor %}
   </div>
 </div>
