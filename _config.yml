@@ -8,6 +8,7 @@ defaults:
         small_logo: './assets/img/small_logo.png'
         logo: './assets/img/logo.png'
       socials:
+        youtube: https://hackquarantine.com/youtube
         livestream: https://www.twitch.tv/hackquarantine
         discord: https://discord.hackquarantine.com/
         platform: https://platform.hackquarantine.com/

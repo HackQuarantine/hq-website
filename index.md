@@ -14,4 +14,6 @@ By working with medical professionals and industry, we'll provide the knowledge 
 
 ## How do I sign up?
 
-First, register on our [DevPost]({{ page.socials.devpost }}) - this is where projects will be submitted for judging. Then, head over to our [Discord server]({{ page.socials.discord }}) and you are ready to go! All the important information you need can be found [here](https://info.hackquarantine.com).
+*This event has ended* but you can still join our [Discord server]({{ page.socials.discord }}) to chat with like-minded people. Be sure to check out all the submitted projects and the winners on [DevPost]({{ page.socials.devpost }})!
+
+To watch the events that were on our live stream, check out our [YouTube channel]({{ page.socials.devpost }})!
