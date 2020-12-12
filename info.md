@@ -37,7 +37,7 @@ td {
 </div>
 <div class="powered-by">
     <a href="https://github.com/"><img style="padding-bottom: 4px" src="/assets/img/powered_by/github.png" alt="GitHub"/></a><b>and</b>
-    <a href="https://hack.athon.uk"><img src="/assets/img/powered_by/logo.svg" alt="HackathonsUK"/></a>
+    <a href="https://hackathons.org.uk"><img src="/assets/img/powered_by/logo.svg" alt="HackathonsUK"/></a>
 </div>
 
 Welcome to Hack Quarantine! We know there’s a ton of important information that you’re going to need over the next few weeks - but don’t worry! We’ve put it all in here. Just bookmark this page and check back whenever you need something. As things change, we’ll keep this doc up to date.
