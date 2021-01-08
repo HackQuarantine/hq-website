@@ -3,7 +3,7 @@ defaults:
     values:
       title: Hack Quarantine
       tagline: A global, virtual hackathon
-      daterange: March 23rd to April 12th
+      daterange: March 23, 2020 to April 12, 2020
       assets:
         small_logo: './assets/img/small_logo.png'
         logo: './assets/img/logo.png'
