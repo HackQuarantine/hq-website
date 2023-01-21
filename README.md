@@ -1,8 +1,8 @@
 # Hack Quarantine
 
-Find our site at [hackquarantine.com](https://hackquarantine.com)
+> HackQuarantine was ane epic project from 2020. The website continues to remain live as a record of the awesome work put in by a global team during a time of uncertainty. However, no further changes are need for this repository and we have therefore made the decision to archive it, if you have any questions, don't hesitate to reach out to [Hackathons UK](https://hackathons.org.uk).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2f2d8d43-0e92-43e0-ae1c-087194ffe88e/deploy-status)](https://app.netlify.com/sites/hq-website/deploys)
+Find our site at [hackquarantine.com](https://hackquarantine.com)
 
 ## Development
 
