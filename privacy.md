@@ -9,6 +9,10 @@ styles:
 ---
 ---
 
+<div class="alert alert-info">
+  This privacy policy has been superseeded by the <a href="https://www.hackathons.org.uk/policies/privacy">Hackathons UK privacy policy</a> which can be found at <a href="https://hackuk.org/privacy">hackuk.org/privacy</a>.
+</div>
+
 # Privacy Policy
 _Effective: March 23, 2020_
 
